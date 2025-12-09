@@ -1,0 +1,44 @@
+# Validation Log for loai_mon
+# Run ID: 20251207_132356
+# Created: 2025-12-07 13:24:02
+#==============================================================================
+
+{
+  "timestamp": "2025-12-07 13:24:02",
+  "row_number": 7,
+  "errors": [
+    "ten_loai: Không rỗng"
+  ],
+  "data": {
+    "id": "7",
+    "ten_loai": "",
+    "mo_ta": "Sản phẩm dành cho đồ ăn nhanh"
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:02",
+  "row_number": 13,
+  "errors": [
+    "ten_loai: Không rỗng"
+  ],
+  "data": {
+    "id": 6,
+    "ten_loai": "",
+    "mo_ta": "Mô tả lỗi"
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:02",
+  "row_number": 14,
+  "errors": [
+    "ten_loai: Độ dài 2-100 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": 7,
+    "ten_loai": "@@Ăn tối",
+    "mo_ta": "Lỗi ký tự"
+  }
+}
+

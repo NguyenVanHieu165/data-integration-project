@@ -1,0 +1,7 @@
+﻿id,ho_ten,sdt,thanh_pho,email,_errors,_row_number
+1,Nguyen Amh*,123,hanoi,test@,"ho_ten: Chứa ký tự đặc biệt không cho phép (regex: [^A-Za-zÀ-Ỵà-ỹ\s]) | sdt: Phải gồm 9-11 chữ số (regex: ^[0-9]{9,11}$) | thanh_pho: Không thuộc danh sách (Cần Thơ, Huế, Hà Nội, Hải Phòng, Hồ Chí Minh, Đà Nẵng) | email: Sai định dạng (regex: ^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$)",1
+8,Lê Hạnh2313,961562977,Đà Nẵng,,ho_ten: Chứa số (regex: \d) | ho_ten: Chứa ký tự đặc biệt không cho phép (regex: [^A-Za-zÀ-Ỵà-ỹ\s]) | email: Không rỗng,9
+50,Vũ Minh8888,921081371,Hồ Chí Minh,,"ho_ten: Chứa số (regex: \d) | ho_ten: Chứa ký tự đặc biệt không cho phép (regex: [^A-Za-zÀ-Ỵà-ỹ\s]) | ho_ten: Lặp ký tự ≥3 lần (ví dụ: aaa, hhh) | email: Không rỗng",51
+123,Nguyễn Nga,915569744,Hồ Chí Minh,user123@example.com,"id: Không dùng ID test (0, 123, 999)",124
+415,,932063477,Hải Phòng,user415@example.com,ho_ten: Không rỗng,416
+416,dyge347434,958213980,Cần Thơ,user416@example.com,ho_ten: Chứa số (regex: \d) | ho_ten: Chứa ký tự đặc biệt không cho phép (regex: [^A-Za-zÀ-Ỵà-ỹ\s]),417

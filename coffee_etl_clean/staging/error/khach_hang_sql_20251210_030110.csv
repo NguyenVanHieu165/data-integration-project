@@ -1,0 +1,14 @@
+﻿id,ho_ten,sdt,thanh_pho,email,_errors,_row_number
+103,,0900001002,Hồ Chí Minh,error2@gmail.com,ho_ten: Không rỗng,101
+104,Lê Thị Nga123,0900001003,Đà Nẵng,error3@gmail.com,ho_ten: Chứa số (regex: \d) | ho_ten: Chứa ký tự đặc biệt không cho phép (regex: [^A-Za-zÀ-Ỵà-ỹ\s]),102
+105,Nguyễn @An,0900001004,Hải Phòng,error4@gmail.com,ho_ten: Chứa ký tự đặc biệt không cho phép (regex: [^A-Za-zÀ-Ỵà-ỹ\s]),103
+110,Lê  Thị Mai,0900001009,Hải Phòng,error9@gmail.com,"ho_ten: Có khoảng trắng liên tiếp (regex: \s{2,})",108
+111,@@@,0900001010,Cần Thơ,error10@gmail.com,"ho_ten: Chứa ký tự đặc biệt không cho phép (regex: [^A-Za-zÀ-Ỵà-ỹ\s]) | ho_ten: Lặp ký tự ≥3 lần (ví dụ: aaa, hhh)",109
+112,Nam 😀 Hihi,0900001019,Đà Nẵng,error19@gmail.com,ho_ten: Chứa ký tự đặc biệt không cho phép (regex: [^A-Za-zÀ-Ỵà-ỹ\s]),110
+113,Nguyễn\tHằng,0900001017,Cần Thơ,error17@gmail.com,ho_ten: Chứa ký tự đặc biệt không cho phép (regex: [^A-Za-zÀ-Ỵà-ỹ\s]),111
+114,Lê\nThanh,0900001018,Hải Phòng,error18@gmail.com,ho_ten: Chứa ký tự đặc biệt không cho phép (regex: [^A-Za-zÀ-Ỵà-ỹ\s]),112
+115,Nguyễn  Văn    A,0900001020,Hải Phòng,error20@gmail.com,"ho_ten: Có khoảng trắng liên tiếp (regex: \s{2,}) | ho_ten: Lặp ký tự ≥3 lần (ví dụ: aaa, hhh)",113
+116,Trung123,0900001021,Hải Phòng,error21@gmail.com,ho_ten: Chứa số (regex: \d) | ho_ten: Chứa ký tự đặc biệt không cho phép (regex: [^A-Za-zÀ-Ỵà-ỹ\s]),114
+117,Trần @@ Nam,0900001022,Hà Nội,error22@gmail.com,ho_ten: Chứa ký tự đặc biệt không cho phép (regex: [^A-Za-zÀ-Ỵà-ỹ\s]),115
+120,-Nam,0900001025,Cần Thơ,error25@gmail.com,ho_ten: Chứa ký tự đặc biệt không cho phép (regex: [^A-Za-zÀ-Ỵà-ỹ\s]),118
+121,Nguyễn_Văn_A,0900001026,Hà Nội,error26@gmail.com,ho_ten: Chứa ký tự đặc biệt không cho phép (regex: [^A-Za-zÀ-Ỵà-ỹ\s]),119

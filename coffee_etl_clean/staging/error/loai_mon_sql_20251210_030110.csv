@@ -1,0 +1,3 @@
+﻿id,ten_loai,mo_ta,_errors,_row_number
+6,,Mô tả lỗi,ten_loai: Không rỗng,6
+7,@@Ăn tối,Lỗi ký tự,"ten_loai: Độ dài 2-100 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\s\-,\.()]{2,200}$)",7

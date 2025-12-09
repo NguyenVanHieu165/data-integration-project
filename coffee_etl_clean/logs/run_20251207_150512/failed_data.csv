@@ -1,0 +1,141 @@
+﻿Time,Entity,Errors,Data
+15:05:15,khach_hang,"ho_ten: Chứa ký tự đặc biệt không cho phép (regex: [^A-Za-zÀ-Ỵà-ỹ\s]); sdt: Phải gồm 9-11 chữ số (regex: ^[0-9]{9,11}$); thanh_pho: Không thuộc danh sách (Cần Thơ, Huế, Hà Nội, Hải Phòng, Hồ Chí Minh, Đà Nẵng); email: Sai định dạng (regex: ^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$)",ho_ten=Nguyen Amh* | sdt=123 | email=test@ | thanh_pho=hanoi
+15:05:15,khach_hang,ho_ten: Chứa số (regex: \d); ho_ten: Chứa ký tự đặc biệt không cho phép (regex: [^A-Za-zÀ-Ỵà-ỹ\s]); email: Không rỗng,ho_ten=Lê Hạnh2313 | sdt=961562977 | email= | thanh_pho=Đà Nẵng
+15:05:16,khach_hang,"ho_ten: Chứa số (regex: \d); ho_ten: Chứa ký tự đặc biệt không cho phép (regex: [^A-Za-zÀ-Ỵà-ỹ\s]); ho_ten: Lặp ký tự ≥3 lần (ví dụ: aaa, hhh); email: Không rỗng",ho_ten=Vũ Minh8888 | sdt=921081371 | email= | thanh_pho=Hồ Chí Minh
+15:05:16,khach_hang,"id: Không dùng ID test (0, 123, 999)",ho_ten=Nguyễn Nga | sdt=915569744 | email=user123@example.com | thanh_pho=Hồ Chí Minh
+15:05:16,khach_hang,ho_ten: Không rỗng,ho_ten= | sdt=932063477 | email=user415@example.com | thanh_pho=Hải Phòng
+15:05:16,khach_hang,ho_ten: Chứa số (regex: \d); ho_ten: Chứa ký tự đặc biệt không cho phép (regex: [^A-Za-zÀ-Ỵà-ỹ\s]),ho_ten=dyge347434 | sdt=958213980 | email=user416@example.com | thanh_pho=Cần Thơ
+15:05:16,khach_hang,ho_ten: Không rỗng,ho_ten= | sdt=0900001002 | email=error2@gmail.com | thanh_pho=Hồ Chí Minh
+15:05:16,khach_hang,ho_ten: Chứa số (regex: \d); ho_ten: Chứa ký tự đặc biệt không cho phép (regex: [^A-Za-zÀ-Ỵà-ỹ\s]),ho_ten=Lê Thị Nga123 | sdt=0900001003 | email=error3@gmail.com | thanh_pho=Đà Nẵng
+15:05:16,khach_hang,ho_ten: Chứa ký tự đặc biệt không cho phép (regex: [^A-Za-zÀ-Ỵà-ỹ\s]),ho_ten=Nguyễn @An | sdt=0900001004 | email=error4@gmail.com | thanh_pho=Hải Phòng
+15:05:16,khach_hang,"ho_ten: Có khoảng trắng liên tiếp (regex: \s{2,})",ho_ten=Lê  Thị Mai | sdt=0900001009 | email=error9@gmail.com | thanh_pho=Hải Phòng
+15:05:16,khach_hang,"ho_ten: Chứa ký tự đặc biệt không cho phép (regex: [^A-Za-zÀ-Ỵà-ỹ\s]); ho_ten: Lặp ký tự ≥3 lần (ví dụ: aaa, hhh)",ho_ten=@@@ | sdt=0900001010 | email=error10@gmail.com | thanh_pho=Cần Thơ
+15:05:16,khach_hang,ho_ten: Chứa ký tự đặc biệt không cho phép (regex: [^A-Za-zÀ-Ỵà-ỹ\s]),ho_ten=Nam 😀 Hihi | sdt=0900001019 | email=error19@gmail.com | thanh_pho=Đà Nẵng
+15:05:16,khach_hang,ho_ten: Chứa ký tự đặc biệt không cho phép (regex: [^A-Za-zÀ-Ỵà-ỹ\s]),ho_ten=Nguyễn\tHằng | sdt=0900001017 | email=error17@gmail.com | thanh_pho=Cần Thơ
+15:05:16,khach_hang,ho_ten: Chứa ký tự đặc biệt không cho phép (regex: [^A-Za-zÀ-Ỵà-ỹ\s]),ho_ten=Lê\nThanh | sdt=0900001018 | email=error18@gmail.com | thanh_pho=Hải Phòng
+15:05:16,khach_hang,"ho_ten: Có khoảng trắng liên tiếp (regex: \s{2,}); ho_ten: Lặp ký tự ≥3 lần (ví dụ: aaa, hhh)",ho_ten=Nguyễn  Văn    A | sdt=0900001020 | email=error20@gmail.com | thanh_pho=Hải Phòng
+15:05:16,khach_hang,ho_ten: Chứa số (regex: \d); ho_ten: Chứa ký tự đặc biệt không cho phép (regex: [^A-Za-zÀ-Ỵà-ỹ\s]),ho_ten=Trung123 | sdt=0900001021 | email=error21@gmail.com | thanh_pho=Hải Phòng
+15:05:16,khach_hang,ho_ten: Chứa ký tự đặc biệt không cho phép (regex: [^A-Za-zÀ-Ỵà-ỹ\s]),ho_ten=Trần @@ Nam | sdt=0900001022 | email=error22@gmail.com | thanh_pho=Hà Nội
+15:05:16,khach_hang,ho_ten: Chứa ký tự đặc biệt không cho phép (regex: [^A-Za-zÀ-Ỵà-ỹ\s]),ho_ten=-Nam | sdt=0900001025 | email=error25@gmail.com | thanh_pho=Cần Thơ
+15:05:16,khach_hang,ho_ten: Chứa ký tự đặc biệt không cho phép (regex: [^A-Za-zÀ-Ỵà-ỹ\s]),ho_ten=Nguyễn_Văn_A | sdt=0900001026 | email=error26@gmail.com | thanh_pho=Hà Nội
+15:05:17,loai_mon,ten_loai: Không rỗng,ten_loai= | mo_ta=Sản phẩm dành cho đồ ăn nhanh
+15:05:17,loai_mon,ten_loai: Không rỗng,ten_loai= | mo_ta=Mô tả lỗi
+15:05:17,loai_mon,"ten_loai: Độ dài 2-100 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\s\-,\.()]{2,200}$)",ten_loai=@@Ăn tối | mo_ta=Lỗi ký tự
+15:05:17,mon,gia: Phải là số dương (regex: ^\d+(\.\d+)?$),gia=abc
+15:05:17,mon,ten_san_pham: Không rỗng,gia=60200
+15:05:17,mon,loai: Không rỗng,gia=44000
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 2 | loai_id=3 | gia=56955.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 3 | loai_id=4 | gia=78407.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 4 | loai_id=5 | gia=112024.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 6 | loai_id=2 | gia=35901.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 7 | loai_id=3 | gia=56054.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 8 | loai_id=4 | gia=103383.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 9 | loai_id=5 | gia=30002.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 11 | loai_id=2 | gia=72699.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 12 | loai_id=3 | gia=54781.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 14 | loai_id=5 | gia=99906.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 15 | loai_id=1 | gia=40619.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 16 | loai_id=2 | gia=102365.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 17 | loai_id=3 | gia=79198.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 18 | loai_id=4 | gia=45420.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 19 | loai_id=5 | gia=67725.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 20 | loai_id=1 | gia=44650.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 21 | loai_id=2 | gia=32718.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 22 | loai_id=3 | gia=51613.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 23 | loai_id=4 | gia=27772.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 24 | loai_id=5 | gia=83473.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 25 | loai_id=1 | gia=68666.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 26 | loai_id=2 | gia=93194.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 27 | loai_id=3 | gia=87198.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 28 | loai_id=4 | gia=28295.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 29 | loai_id=5 | gia=83190.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 30 | loai_id=1 | gia=39781.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 31 | loai_id=2 | gia=84281.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 32 | loai_id=3 | gia=103912.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 33 | loai_id=4 | gia=114819.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 34 | loai_id=5 | gia=108923.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 35 | loai_id=1 | gia=80062.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 36 | loai_id=2 | gia=20565.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 37 | loai_id=3 | gia=40516.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 38 | loai_id=4 | gia=73163.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 39 | loai_id=5 | gia=64178.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 40 | loai_id=1 | gia=28128.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 41 | loai_id=2 | gia=100677.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 42 | loai_id=3 | gia=23562.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 43 | loai_id=4 | gia=58070.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 44 | loai_id=5 | gia=92512.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 45 | loai_id=1 | gia=73304.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 46 | loai_id=2 | gia=104152.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 47 | loai_id=3 | gia=69512.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 48 | loai_id=4 | gia=116110.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 49 | loai_id=5 | gia=109206.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 50 | loai_id=1 | gia=75592.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 51 | loai_id=2 | gia=75132.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 52 | loai_id=3 | gia=33323.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 53 | loai_id=4 | gia=49080.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 54 | loai_id=5 | gia=105977.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 55 | loai_id=1 | gia=67387.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 56 | loai_id=2 | gia=91247.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 57 | loai_id=3 | gia=24616.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 58 | loai_id=4 | gia=30337.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 59 | loai_id=5 | gia=45092.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 60 | loai_id=1 | gia=116637.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 61 | loai_id=2 | gia=88877.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 62 | loai_id=3 | gia=50756.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 63 | loai_id=4 | gia=90576.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 64 | loai_id=5 | gia=37834.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 65 | loai_id=1 | gia=112862.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 66 | loai_id=2 | gia=25899.0
+15:05:17,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 67 | loai_id=3 | gia=98363.0
+15:05:18,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 68 | loai_id=4 | gia=108210.0
+15:05:18,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 69 | loai_id=5 | gia=113295.0
+15:05:18,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 70 | loai_id=1 | gia=100641.0
+15:05:18,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 71 | loai_id=2 | gia=40365.0
+15:05:18,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 72 | loai_id=3 | gia=91720.0
+15:05:18,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 73 | loai_id=4 | gia=60191.0
+15:05:18,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 74 | loai_id=5 | gia=55262.0
+15:05:18,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 75 | loai_id=1 | gia=46774.0
+15:05:18,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 76 | loai_id=2 | gia=27014.0
+15:05:18,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 77 | loai_id=3 | gia=99532.0
+15:05:18,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 78 | loai_id=4 | gia=25085.0
+15:05:18,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 79 | loai_id=5 | gia=56140.0
+15:05:18,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 80 | loai_id=1 | gia=117187.0
+15:05:18,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 81 | loai_id=2 | gia=25593.0
+15:05:18,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 82 | loai_id=3 | gia=47220.0
+15:05:18,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 83 | loai_id=4 | gia=108106.0
+15:05:18,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 84 | loai_id=5 | gia=104233.0
+15:05:18,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 85 | loai_id=1 | gia=106047.0
+15:05:18,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 86 | loai_id=2 | gia=98109.0
+15:05:18,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 87 | loai_id=3 | gia=84923.0
+15:05:18,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 88 | loai_id=4 | gia=46288.0
+15:05:18,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 89 | loai_id=5 | gia=52706.0
+15:05:18,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 90 | loai_id=1 | gia=68202.0
+15:05:18,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 91 | loai_id=2 | gia=85196.0
+15:05:18,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 92 | loai_id=3 | gia=116597.0
+15:05:18,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 93 | loai_id=4 | gia=28412.0
+15:05:18,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 94 | loai_id=5 | gia=36161.0
+15:05:18,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 95 | loai_id=1 | gia=78880.0
+15:05:18,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 96 | loai_id=2 | gia=40283.0
+15:05:18,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 97 | loai_id=3 | gia=76520.0
+15:05:18,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 98 | loai_id=4 | gia=39354.0
+15:05:18,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 99 | loai_id=5 | gia=103843.0
+15:05:18,mon,id: Trùng ID đã tồn tại,ten_mon=Món ăn 100 | loai_id=1 | gia=111976.0
+15:05:18,mon,id: Trùng ID đã tồn tại,ten_mon=Món 123 | loai_id=1 | gia=20000.0
+15:05:18,mon,"id: Trùng ID đã tồn tại; ten_mon: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\s\-,\.()]{2,200}$)",ten_mon=@@Món lỗi | loai_id=2 | gia=15000.0
+15:05:18,mon,id: Trùng ID đã tồn tại; gia: Phải là số dương (regex: ^\d+(\.\d+)?$),ten_mon=Món lỗi giá âm | loai_id=3 | gia=-5000.0
+15:05:18,mon,id: Trùng ID đã tồn tại; gia: Không rỗng,ten_mon=Món lỗi null giá | loai_id=4 | gia=None
+15:05:18,mon,id: Trùng ID đã tồn tại; ten_mon: Không rỗng,ten_mon= | loai_id=5 | gia=20000.0
+15:05:18,mon,id: Trùng ID đã tồn tại; gia: Phải > 0,ten_mon=Giá bằng 0 | loai_id=1 | gia=0.0
+15:05:18,nguyen_lieu,id: Không rỗng,ten_nguyen_lieu=Gạo loại 5 | so_luong=415 | don_vi=kg | nha_cung_cap=Cty C
+15:05:18,nguyen_lieu,ten_nguyen_lieu: Không rỗng,ten_nguyen_lieu= | so_luong=181 | don_vi=kg | nha_cung_cap=Cty A
+15:05:18,nguyen_lieu,id: Phải là số nguyên dương (regex: ^[1-9]\d*$); ten_nguyen_lieu: Không rỗng; so_luong: Không rỗng; don_vi: Không rỗng,ten_nguyen_lieu=None | so_luong=None | don_vi=None | nha_cung_cap=None
+15:05:18,nguyen_lieu,"ten_nguyen_lieu: Độ dài 2-200 ký tự (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\s\-,\.()]{2,200}$)",ten_nguyen_lieu=Nguyên liệu @@ | so_luong=50 | don_vi=kg | nha_cung_cap=Công ty A
+15:05:18,nguyen_lieu,so_luong: Phải là số dương (regex: ^\d+(\.\d+)?$),ten_nguyen_lieu=NL lỗi 1 | so_luong=-10 | don_vi=kg | nha_cung_cap=Công ty B
+15:05:18,nguyen_lieu,ten_nguyen_lieu: Không rỗng,ten_nguyen_lieu= | so_luong=30 | don_vi=g | nha_cung_cap=Công ty D
+15:05:18,nguyen_lieu,don_vi: Không rỗng,ten_nguyen_lieu=Nguyen lieu so | so_luong=0 | don_vi=None | nha_cung_cap=Công ty E
+15:05:18,nguyen_lieu,so_luong: Không rỗng,ten_nguyen_lieu=Nguyen lieu null | so_luong=None | don_vi=kg | nha_cung_cap=Công ty F
+15:05:19,dat_hang,trang_thai: Không rỗng,id=151 | khach_hang_id=2 | mon_id=1 | so_luong=1 | ngay_dat=2025-11-14 | trang_thai=
+15:05:19,dat_hang,trang_thai: Không rỗng,id=152 | khach_hang_id=3 | mon_id=2 | so_luong=2 | ngay_dat=2025-11-14 | trang_thai=None
+15:05:19,dat_hang,so_luong: Phải là số nguyên dương (regex: ^[1-9]\d*$),id=157 | khach_hang_id=8 | mon_id=7 | so_luong=0 | ngay_dat=2025-11-14 | trang_thai=Đang xử lý
+15:05:19,dat_hang,ngay_dat: Không rỗng,id=159 | khach_hang_id=10 | mon_id=9 | so_luong=1 | ngay_dat=None | trang_thai=Đang xử lý
+15:05:19,dat_hang,trang_thai: Không rỗng,id=169 | khach_hang_id=20 | mon_id=19 | so_luong=1 | ngay_dat=2025-11-14 | trang_thai=     

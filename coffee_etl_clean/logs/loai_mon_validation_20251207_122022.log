@@ -1,0 +1,110 @@
+# Validation Log for loai_mon
+# Run ID: 20251207_122022
+# Created: 2025-12-07 12:20:28
+#==============================================================================
+
+{
+  "timestamp": "2025-12-07 12:20:28",
+  "row_number": 7,
+  "errors": [
+    "ten_loai: Không rỗng"
+  ],
+  "data": {
+    "id": "7",
+    "ten_loai": "",
+    "mo_ta": "Sản phẩm dành cho đồ ăn nhanh"
+  }
+}
+
+{
+  "timestamp": "2025-12-07 12:20:28",
+  "row_number": 8,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 1,
+    "ten_loai": "Ăn sáng",
+    "mo_ta": "Món phục vụ buổi sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-07 12:20:28",
+  "row_number": 9,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 2,
+    "ten_loai": "Ăn trưa",
+    "mo_ta": "Món ăn chính giữa ngày"
+  }
+}
+
+{
+  "timestamp": "2025-12-07 12:20:28",
+  "row_number": 10,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 3,
+    "ten_loai": "Ăn tối",
+    "mo_ta": "Món ăn cho buổi tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-07 12:20:28",
+  "row_number": 11,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 4,
+    "ten_loai": "Ăn nhẹ",
+    "mo_ta": "Món nhẹ, ăn nhanh"
+  }
+}
+
+{
+  "timestamp": "2025-12-07 12:20:28",
+  "row_number": 12,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 5,
+    "ten_loai": "Đồ uống",
+    "mo_ta": "Các loại nước uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-07 12:20:28",
+  "row_number": 13,
+  "errors": [
+    "id: Trùng ID đã tồn tại",
+    "ten_loai: Không rỗng"
+  ],
+  "data": {
+    "id": 6,
+    "ten_loai": "",
+    "mo_ta": "Mô tả lỗi"
+  }
+}
+
+{
+  "timestamp": "2025-12-07 12:20:28",
+  "row_number": 14,
+  "errors": [
+    "ten_loai: Độ dài 2-100 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": 7,
+    "ten_loai": "@@Ăn tối",
+    "mo_ta": "Lỗi ký tự"
+  }
+}
+

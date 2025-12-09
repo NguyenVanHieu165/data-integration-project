@@ -1,0 +1,1480 @@
+# Validation Log for mon
+# Run ID: 20251207_132356
+# Created: 2025-12-07 13:24:02
+#==============================================================================
+
+{
+  "timestamp": "2025-12-07 13:24:02",
+  "row_number": 1,
+  "errors": [
+    "gia: Phải là số dương (regex: ^\\d+(\\.\\d+)?$)"
+  ],
+  "data": {
+    "id": "1",
+    "ten_san_pham": "Bánh mì 9",
+    "gia": "abc",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:02",
+  "row_number": 10,
+  "errors": [
+    "ten_san_pham: Không rỗng"
+  ],
+  "data": {
+    "id": "10",
+    "ten_san_pham": "",
+    "gia": "60200",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:02",
+  "row_number": 13,
+  "errors": [
+    "loai: Không rỗng"
+  ],
+  "data": {
+    "id": "13",
+    "ten_san_pham": "Cơm gà 19",
+    "gia": "44000",
+    "loai": ""
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 502,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 2,
+    "ten_mon": "Món ăn 2",
+    "loai_id": 3,
+    "gia": 56955.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 503,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 3,
+    "ten_mon": "Món ăn 3",
+    "loai_id": 4,
+    "gia": 78407.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 504,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 4,
+    "ten_mon": "Món ăn 4",
+    "loai_id": 5,
+    "gia": 112024.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 506,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 6,
+    "ten_mon": "Món ăn 6",
+    "loai_id": 2,
+    "gia": 35901.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 507,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 7,
+    "ten_mon": "Món ăn 7",
+    "loai_id": 3,
+    "gia": 56054.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 508,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 8,
+    "ten_mon": "Món ăn 8",
+    "loai_id": 4,
+    "gia": 103383.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 509,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 9,
+    "ten_mon": "Món ăn 9",
+    "loai_id": 5,
+    "gia": 30002.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 511,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 11,
+    "ten_mon": "Món ăn 11",
+    "loai_id": 2,
+    "gia": 72699.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 512,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 12,
+    "ten_mon": "Món ăn 12",
+    "loai_id": 3,
+    "gia": 54781.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 514,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 14,
+    "ten_mon": "Món ăn 14",
+    "loai_id": 5,
+    "gia": 99906.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 515,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 15,
+    "ten_mon": "Món ăn 15",
+    "loai_id": 1,
+    "gia": 40619.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 516,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 16,
+    "ten_mon": "Món ăn 16",
+    "loai_id": 2,
+    "gia": 102365.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 517,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 17,
+    "ten_mon": "Món ăn 17",
+    "loai_id": 3,
+    "gia": 79198.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 518,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 18,
+    "ten_mon": "Món ăn 18",
+    "loai_id": 4,
+    "gia": 45420.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 519,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 19,
+    "ten_mon": "Món ăn 19",
+    "loai_id": 5,
+    "gia": 67725.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 520,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 20,
+    "ten_mon": "Món ăn 20",
+    "loai_id": 1,
+    "gia": 44650.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 521,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 21,
+    "ten_mon": "Món ăn 21",
+    "loai_id": 2,
+    "gia": 32718.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 522,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 22,
+    "ten_mon": "Món ăn 22",
+    "loai_id": 3,
+    "gia": 51613.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 523,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 23,
+    "ten_mon": "Món ăn 23",
+    "loai_id": 4,
+    "gia": 27772.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 524,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 24,
+    "ten_mon": "Món ăn 24",
+    "loai_id": 5,
+    "gia": 83473.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 525,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 25,
+    "ten_mon": "Món ăn 25",
+    "loai_id": 1,
+    "gia": 68666.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 526,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 26,
+    "ten_mon": "Món ăn 26",
+    "loai_id": 2,
+    "gia": 93194.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 527,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 27,
+    "ten_mon": "Món ăn 27",
+    "loai_id": 3,
+    "gia": 87198.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 528,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 28,
+    "ten_mon": "Món ăn 28",
+    "loai_id": 4,
+    "gia": 28295.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 529,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 29,
+    "ten_mon": "Món ăn 29",
+    "loai_id": 5,
+    "gia": 83190.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 530,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 30,
+    "ten_mon": "Món ăn 30",
+    "loai_id": 1,
+    "gia": 39781.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 531,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 31,
+    "ten_mon": "Món ăn 31",
+    "loai_id": 2,
+    "gia": 84281.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 532,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 32,
+    "ten_mon": "Món ăn 32",
+    "loai_id": 3,
+    "gia": 103912.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 533,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 33,
+    "ten_mon": "Món ăn 33",
+    "loai_id": 4,
+    "gia": 114819.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 534,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 34,
+    "ten_mon": "Món ăn 34",
+    "loai_id": 5,
+    "gia": 108923.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 535,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 35,
+    "ten_mon": "Món ăn 35",
+    "loai_id": 1,
+    "gia": 80062.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 536,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 36,
+    "ten_mon": "Món ăn 36",
+    "loai_id": 2,
+    "gia": 20565.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 537,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 37,
+    "ten_mon": "Món ăn 37",
+    "loai_id": 3,
+    "gia": 40516.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 538,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 38,
+    "ten_mon": "Món ăn 38",
+    "loai_id": 4,
+    "gia": 73163.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 539,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 39,
+    "ten_mon": "Món ăn 39",
+    "loai_id": 5,
+    "gia": 64178.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 540,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 40,
+    "ten_mon": "Món ăn 40",
+    "loai_id": 1,
+    "gia": 28128.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 541,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 41,
+    "ten_mon": "Món ăn 41",
+    "loai_id": 2,
+    "gia": 100677.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 542,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 42,
+    "ten_mon": "Món ăn 42",
+    "loai_id": 3,
+    "gia": 23562.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 543,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 43,
+    "ten_mon": "Món ăn 43",
+    "loai_id": 4,
+    "gia": 58070.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 544,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 44,
+    "ten_mon": "Món ăn 44",
+    "loai_id": 5,
+    "gia": 92512.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 545,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 45,
+    "ten_mon": "Món ăn 45",
+    "loai_id": 1,
+    "gia": 73304.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 546,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 46,
+    "ten_mon": "Món ăn 46",
+    "loai_id": 2,
+    "gia": 104152.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 547,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 47,
+    "ten_mon": "Món ăn 47",
+    "loai_id": 3,
+    "gia": 69512.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 548,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 48,
+    "ten_mon": "Món ăn 48",
+    "loai_id": 4,
+    "gia": 116110.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 549,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 49,
+    "ten_mon": "Món ăn 49",
+    "loai_id": 5,
+    "gia": 109206.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 550,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 50,
+    "ten_mon": "Món ăn 50",
+    "loai_id": 1,
+    "gia": 75592.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 551,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 51,
+    "ten_mon": "Món ăn 51",
+    "loai_id": 2,
+    "gia": 75132.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 552,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 52,
+    "ten_mon": "Món ăn 52",
+    "loai_id": 3,
+    "gia": 33323.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 553,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 53,
+    "ten_mon": "Món ăn 53",
+    "loai_id": 4,
+    "gia": 49080.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 554,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 54,
+    "ten_mon": "Món ăn 54",
+    "loai_id": 5,
+    "gia": 105977.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 555,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 55,
+    "ten_mon": "Món ăn 55",
+    "loai_id": 1,
+    "gia": 67387.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 556,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 56,
+    "ten_mon": "Món ăn 56",
+    "loai_id": 2,
+    "gia": 91247.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 557,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 57,
+    "ten_mon": "Món ăn 57",
+    "loai_id": 3,
+    "gia": 24616.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 558,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 58,
+    "ten_mon": "Món ăn 58",
+    "loai_id": 4,
+    "gia": 30337.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 559,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 59,
+    "ten_mon": "Món ăn 59",
+    "loai_id": 5,
+    "gia": 45092.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 560,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 60,
+    "ten_mon": "Món ăn 60",
+    "loai_id": 1,
+    "gia": 116637.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 561,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 61,
+    "ten_mon": "Món ăn 61",
+    "loai_id": 2,
+    "gia": 88877.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 562,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 62,
+    "ten_mon": "Món ăn 62",
+    "loai_id": 3,
+    "gia": 50756.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 563,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 63,
+    "ten_mon": "Món ăn 63",
+    "loai_id": 4,
+    "gia": 90576.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 564,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 64,
+    "ten_mon": "Món ăn 64",
+    "loai_id": 5,
+    "gia": 37834.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 565,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 65,
+    "ten_mon": "Món ăn 65",
+    "loai_id": 1,
+    "gia": 112862.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 566,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 66,
+    "ten_mon": "Món ăn 66",
+    "loai_id": 2,
+    "gia": 25899.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 567,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 67,
+    "ten_mon": "Món ăn 67",
+    "loai_id": 3,
+    "gia": 98363.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 568,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 68,
+    "ten_mon": "Món ăn 68",
+    "loai_id": 4,
+    "gia": 108210.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 569,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 69,
+    "ten_mon": "Món ăn 69",
+    "loai_id": 5,
+    "gia": 113295.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 570,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 70,
+    "ten_mon": "Món ăn 70",
+    "loai_id": 1,
+    "gia": 100641.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 571,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 71,
+    "ten_mon": "Món ăn 71",
+    "loai_id": 2,
+    "gia": 40365.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 572,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 72,
+    "ten_mon": "Món ăn 72",
+    "loai_id": 3,
+    "gia": 91720.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 573,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 73,
+    "ten_mon": "Món ăn 73",
+    "loai_id": 4,
+    "gia": 60191.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 574,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 74,
+    "ten_mon": "Món ăn 74",
+    "loai_id": 5,
+    "gia": 55262.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 575,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 75,
+    "ten_mon": "Món ăn 75",
+    "loai_id": 1,
+    "gia": 46774.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 576,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 76,
+    "ten_mon": "Món ăn 76",
+    "loai_id": 2,
+    "gia": 27014.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 577,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 77,
+    "ten_mon": "Món ăn 77",
+    "loai_id": 3,
+    "gia": 99532.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 578,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 78,
+    "ten_mon": "Món ăn 78",
+    "loai_id": 4,
+    "gia": 25085.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 579,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 79,
+    "ten_mon": "Món ăn 79",
+    "loai_id": 5,
+    "gia": 56140.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 580,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 80,
+    "ten_mon": "Món ăn 80",
+    "loai_id": 1,
+    "gia": 117187.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 581,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 81,
+    "ten_mon": "Món ăn 81",
+    "loai_id": 2,
+    "gia": 25593.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 582,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 82,
+    "ten_mon": "Món ăn 82",
+    "loai_id": 3,
+    "gia": 47220.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 583,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 83,
+    "ten_mon": "Món ăn 83",
+    "loai_id": 4,
+    "gia": 108106.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 584,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 84,
+    "ten_mon": "Món ăn 84",
+    "loai_id": 5,
+    "gia": 104233.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 585,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 85,
+    "ten_mon": "Món ăn 85",
+    "loai_id": 1,
+    "gia": 106047.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 586,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 86,
+    "ten_mon": "Món ăn 86",
+    "loai_id": 2,
+    "gia": 98109.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 587,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 87,
+    "ten_mon": "Món ăn 87",
+    "loai_id": 3,
+    "gia": 84923.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 588,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 88,
+    "ten_mon": "Món ăn 88",
+    "loai_id": 4,
+    "gia": 46288.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 589,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 89,
+    "ten_mon": "Món ăn 89",
+    "loai_id": 5,
+    "gia": 52706.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 590,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 90,
+    "ten_mon": "Món ăn 90",
+    "loai_id": 1,
+    "gia": 68202.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 591,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 91,
+    "ten_mon": "Món ăn 91",
+    "loai_id": 2,
+    "gia": 85196.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 592,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 92,
+    "ten_mon": "Món ăn 92",
+    "loai_id": 3,
+    "gia": 116597.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 593,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 93,
+    "ten_mon": "Món ăn 93",
+    "loai_id": 4,
+    "gia": 28412.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 594,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 94,
+    "ten_mon": "Món ăn 94",
+    "loai_id": 5,
+    "gia": 36161.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 595,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 95,
+    "ten_mon": "Món ăn 95",
+    "loai_id": 1,
+    "gia": 78880.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 596,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 96,
+    "ten_mon": "Món ăn 96",
+    "loai_id": 2,
+    "gia": 40283.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 597,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 97,
+    "ten_mon": "Món ăn 97",
+    "loai_id": 3,
+    "gia": 76520.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 598,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 98,
+    "ten_mon": "Món ăn 98",
+    "loai_id": 4,
+    "gia": 39354.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 599,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 99,
+    "ten_mon": "Món ăn 99",
+    "loai_id": 5,
+    "gia": 103843.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 600,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 100,
+    "ten_mon": "Món ăn 100",
+    "loai_id": 1,
+    "gia": 111976.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 601,
+  "errors": [
+    "id: Trùng ID đã tồn tại"
+  ],
+  "data": {
+    "id": 106,
+    "ten_mon": "Món 123",
+    "loai_id": 1,
+    "gia": 20000.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 602,
+  "errors": [
+    "id: Trùng ID đã tồn tại",
+    "ten_mon: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": 107,
+    "ten_mon": "@@Món lỗi",
+    "loai_id": 2,
+    "gia": 15000.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 603,
+  "errors": [
+    "id: Trùng ID đã tồn tại",
+    "gia: Phải là số dương (regex: ^\\d+(\\.\\d+)?$)"
+  ],
+  "data": {
+    "id": 108,
+    "ten_mon": "Món lỗi giá âm",
+    "loai_id": 3,
+    "gia": -5000.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 604,
+  "errors": [
+    "id: Trùng ID đã tồn tại",
+    "gia: Không rỗng"
+  ],
+  "data": {
+    "id": 109,
+    "ten_mon": "Món lỗi null giá",
+    "loai_id": 4,
+    "gia": null
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 605,
+  "errors": [
+    "id: Trùng ID đã tồn tại",
+    "ten_mon: Không rỗng"
+  ],
+  "data": {
+    "id": 110,
+    "ten_mon": "",
+    "loai_id": 5,
+    "gia": 20000.0
+  }
+}
+
+{
+  "timestamp": "2025-12-07 13:24:03",
+  "row_number": 606,
+  "errors": [
+    "id: Trùng ID đã tồn tại",
+    "gia: Phải > 0"
+  ],
+  "data": {
+    "id": 111,
+    "ten_mon": "Giá bằng 0",
+    "loai_id": 1,
+    "gia": 0.0
+  }
+}
+

@@ -1,0 +1,82 @@
+﻿id,ten_san_pham,gia,loai,_errors,_row_number
+2,Mì xào 2,26138,Đồ uống,"ten_san_pham: Chỉ cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ\s\-,\.()]{2,200}$)",2
+4,Cơm sườn 5,115506,Ăn tối,"ten_san_pham: Chỉ cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ\s\-,\.()]{2,200}$)",4
+5,Cơm gà 1,109861,Đồ uống,"ten_san_pham: Chỉ cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ\s\-,\.()]{2,200}$)",5
+6,Bún chả 17,55989,Ăn sáng,"ten_san_pham: Chỉ cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ\s\-,\.()]{2,200}$)",6
+7,Cơm sườn 19,22137,Ăn sáng,"ten_san_pham: Chỉ cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ\s\-,\.()]{2,200}$)",7
+8,Hủ tiếu 8,70546,Ăn nhẹ,"ten_san_pham: Chỉ cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ\s\-,\.()]{2,200}$)",8
+9,Mì xào 4,71684,Ăn sáng,"ten_san_pham: Chỉ cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ\s\-,\.()]{2,200}$)",9
+11,Cơm gà 2,116934,Ăn trưa,"ten_san_pham: Chỉ cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ\s\-,\.()]{2,200}$)",11
+12,Bún chả 8,62640,Ăn nhẹ,"ten_san_pham: Chỉ cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ\s\-,\.()]{2,200}$)",12
+13,Cơm gà 19,44000,,"ten_san_pham: Chỉ cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ\s\-,\.()]{2,200}$) | loai: Không rỗng",13
+14,Cháo lòng 8,39155,Ăn sáng,"ten_san_pham: Chỉ cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ\s\-,\.()]{2,200}$)",14
+15,Súp cua 10,83858,Ăn nhẹ,"ten_san_pham: Chỉ cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ\s\-,\.()]{2,200}$)",15
+16,Hủ tiếu 11,76692,Ăn trưa,"ten_san_pham: Chỉ cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ\s\-,\.()]{2,200}$)",16
+17,Súp cua 12,88346,Ăn trưa,"ten_san_pham: Chỉ cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ\s\-,\.()]{2,200}$)",17
+18,Cháo lòng 14,81131,Ăn trưa,"ten_san_pham: Chỉ cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ\s\-,\.()]{2,200}$)",18
+19,Cơm sườn 14,24136,Ăn tối,"ten_san_pham: Chỉ cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ\s\-,\.()]{2,200}$)",19
+20,Mì xào 9,53682,Ăn trưa,"ten_san_pham: Chỉ cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ\s\-,\.()]{2,200}$)",20
+21,Bánh mì ###,-15000,Đồ uống,"ten_san_pham: Chỉ cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ\s\-,\.()]{2,200}$) | gia: Phải là số dương (regex: ^\d+(\.\d+)?$)",21
+22,@@@!!!,20000,Ăn sáng,"ten_san_pham: Chỉ cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ\s\-,\.()]{2,200}$)",22
+23,,0,Đồ uống,ten_san_pham: Không rỗng | gia: Phải > 0,23
+24,Mì xào đặc biệt,abc123,Ăn trưa,gia: Phải là số dương (regex: ^\d+(\.\d+)?$),24
+25,Cơm gà siêu to,999999999999,Ăn tối,gia: Vượt giới hạn hợp lý (10 triệu),25
+26,Phở bò,, ,gia: Không rỗng | loai: Không rỗng,26
+27,   ,45000,Ăn nhẹ,ten_san_pham: Không rỗng,27
+28,Hủ tiếu 123,35000,,"ten_san_pham: Chỉ cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ\s\-,\.()]{2,200}$) | loai: Không rỗng",28
+29,Cơm sườn!!!,xxyyzz,Ăn sáng,"ten_san_pham: Chỉ cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ\s\-,\.()]{2,200}$) | gia: Phải là số dương (regex: ^\d+(\.\d+)?$)",29
+30,Gỏi cuốn,@50000,Ăn trưa,gia: Phải là số dương (regex: ^\d+(\.\d+)?$),30
+31,Bún chả,,,gia: Không rỗng | loai: Không rỗng,31
+33,Cà phê sữa, ,Đồ uống,gia: Phải là số dương (regex: ^\d+(\.\d+)?$),33
+34,Cơm gà đặc biệt,-1,Ăn sáng,gia: Phải là số dương (regex: ^\d+(\.\d+)?$),34
+35,123456,45000,Ăn nhẹ,"ten_san_pham: Chỉ cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ\s\-,\.()]{2,200}$)",35
+36,###,###,###,"ten_san_pham: Chỉ cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ\s\-,\.()]{2,200}$) | gia: Phải là số dương (regex: ^\d+(\.\d+)?$)",36
+39,Bánh mì pate,chuoiso,Ăn sáng,gia: Phải là số dương (regex: ^\d+(\.\d+)?$),39
+41,Cơm sườn bì chả,0,Ăn trưa,gia: Phải > 0,41
+43,, , ,ten_san_pham: Không rỗng | gia: Phải là số dương (regex: ^\d+(\.\d+)?$) | loai: Không rỗng,43
+47,Cơm tấm,1000000000000000,Ăn sáng,gia: Vượt giới hạn hợp lý (10 triệu),47
+48,%%% Cơm gà,25000,Ăn nhẹ,"ten_san_pham: Chỉ cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ\s\-,\.()]{2,200}$)",48
+50,Bánh mì chả,3,5,loai: Tối thiểu 2 ký tự,50
+51,Trà chanh,20000a,Đồ uống,gia: Phải là số dương (regex: ^\d+(\.\d+)?$),51
+52,!,10000,Đồ uống,"ten_san_pham: Tối thiểu 2 ký tự | ten_san_pham: Chỉ cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ\s\-,\.()]{2,200}$)",52
+53,Cơm gà xối mỡ,-9999999999,Ăn tối,gia: Phải là số dương (regex: ^\d+(\.\d+)?$),53
+54,Bún bò Huế, ,Ăn trưa,gia: Phải là số dương (regex: ^\d+(\.\d+)?$),54
+55,Súp cua,haha,Ăn nhẹ,gia: Phải là số dương (regex: ^\d+(\.\d+)?$),55
+58,Bánh mì chả lụa, ,ĂN NHẸ,gia: Phải là số dương (regex: ^\d+(\.\d+)?$),58
+59,Phở gà,0, ,gia: Phải > 0 | loai: Không rỗng,59
+60,Cơm rang dưa bò, ,Ăn khuya,gia: Phải là số dương (regex: ^\d+(\.\d+)?$),60
+61,Trà tắc, ,đồ uống,gia: Phải là số dương (regex: ^\d+(\.\d+)?$),61
+62,Trà sữa đường đen,abc,Đồ uống,gia: Phải là số dương (regex: ^\d+(\.\d+)?$),62
+64,.,-5,!!!,"ten_san_pham: Tối thiểu 2 ký tự | ten_san_pham: Chỉ cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ\s\-,\.()]{2,200}$) | gia: Phải là số dương (regex: ^\d+(\.\d+)?$)",64
+65,Món test khoảng trắng đầu,25000,   Ăn trưa,ten_san_pham: Chứa từ khóa test/fake/dummy,65
+66,Món test khoảng trắng cuối,25000,Ăn tối   ,ten_san_pham: Chứa từ khóa test/fake/dummy,66
+67, , ,     ,ten_san_pham: Không rỗng | gia: Phải là số dương (regex: ^\d+(\.\d+)?$) | loai: Không rỗng,67
+68,Mì xào chay, 0 , Đồ uố&ng,gia: Phải > 0,68
+70,Bánh mì,,Đồ uống,gia: Không rỗng,70
+71,,50000,Ăn sáng,ten_san_pham: Không rỗng,71
+72,******,80000,Ăn trưa,"ten_san_pham: Chỉ cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ\s\-,\.()]{2,200}$)",72
+73,Cơm gà đặc biệt@@,60000,Đồ uống,"ten_san_pham: Chỉ cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ\s\-,\.()]{2,200}$)",73
+74,123,20000,Ăn nhẹ,"ten_san_pham: Chỉ cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ\s\-,\.()]{2,200}$)",74
+75,Phở bò !!!,45000,Ăn sáng,"ten_san_pham: Chỉ cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ\s\-,\.()]{2,200}$)",75
+76,Mì xào,,Ăn sáng,gia: Không rỗng,76
+77,Trà sen vàng,99999999999999,Ăn tối,gia: Vượt giới hạn hợp lý (10 triệu),77
+78,Gỏi cuốn 222,35000,Ăn trưa,"ten_san_pham: Chỉ cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ\s\-,\.()]{2,200}$)",78
+79,Súp cua???,45000,Ăn trưa,"ten_san_pham: Chỉ cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ\s\-,\.()]{2,200}$)",79
+80,Phở bò tái,abc,Đồ uống,gia: Phải là số dương (regex: ^\d+(\.\d+)?$),80
+81,Hủ tiếu, -20 ,Ăn sáng,gia: Phải là số dương (regex: ^\d+(\.\d+)?$),81
+82,Bún chả đặc biệt,0,Ăn nhẹ,gia: Phải > 0,82
+83,Phở bò béo, ,Đồ uống,gia: Phải là số dương (regex: ^\d+(\.\d+)?$),83
+84,Bánh mì kẹp thịt,$50000,Ăn trưa,gia: Phải là số dương (regex: ^\d+(\.\d+)?$),84
+85,Cơm sườn ốp la,123abc,Ăn sáng,gia: Phải là số dương (regex: ^\d+(\.\d+)?$),85
+86,Mì xào cải,abc,Ăn trưa,gia: Phải là số dương (regex: ^\d+(\.\d+)?$),86
+87,Cháo lòng,,Ăn sáng,gia: Không rỗng,87
+88,Phở gà 888,50000,Ăn_sáng,"ten_san_pham: Chỉ cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ\s\-,\.()]{2,200}$)",88
+92,Súp cua hoàng đế,abc100,Ăn sáng,gia: Phải là số dương (regex: ^\d+(\.\d+)?$),92
+93,Cơm tấm đặc biệt,50 000,Ăn trưa,gia: Phải là số dương (regex: ^\d+(\.\d+)?$),93
+94,Trà đào khổng lồ,abc,Đồ uống,gia: Phải là số dương (regex: ^\d+(\.\d+)?$),94
+95,Hủ tiếu Mỹ Tho,-345,Ăn tối,gia: Phải là số dương (regex: ^\d+(\.\d+)?$),95
+96,Bánh mì thịt nguội,   ,Đồ uống,gia: Phải là số dương (regex: ^\d+(\.\d+)?$),96
+97,Phở bò sốt vang,??? ,Ăn sáng,gia: Phải là số dương (regex: ^\d+(\.\d+)?$),97
+98,Cơm sườn chay,-1,Ăn trưa,gia: Phải là số dương (regex: ^\d+(\.\d+)?$),98
+99,Cơm gà nướng,abc123,Ăn nhẹ,gia: Phải là số dương (regex: ^\d+(\.\d+)?$),99
+100,Bún chả mắm tôm,0,Ăn sáng,gia: Phải > 0,100

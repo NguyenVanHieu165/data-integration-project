@@ -1,0 +1,499 @@
+﻿id,ten_nguyen_lieu,so_luong,don_vi,nha_cung_cap
+1,Gạo loại 5,215,chai,Cty E
+2,Hành loại 2,238,kg,Cty B
+3,Gạo loại 2,270,chai,Cty C
+4,Muối loại 1,198,bó,Cty A
+5,Dầu ăn loại 5,143,chai,Cty B
+7,Hành loại 2,334,bó,Cty E
+9,Tỏi loại 1,89,kg,Cty 
+10,Gạo loại 5,289,lọ,Cty C
+11,Tỏi loại 5,456,g,Cty D
+12,Tỏi loại 2,211,g,Cty C
+13,Tỏi loại 5,333,lọ,Cty C
+14,Thịt heo loại 4,262,g,Cty B
+15,Thịt bò loại 1,132,bó,Cty C
+16,Đường loại 1,348,lọ,Cty E
+17,Dầu ăn loại 3,380,chai,Cty E
+18,Cá loại 1,209,bó,Cty D
+19,Muối loại 5,405,g,Cty E
+20,Thịt bò loại 5,439,kg,Cty C
+21,Tỏi loại 1,267,kg,Cty A
+22,Muối loại 3,67,kg,Cty E
+23,Thịt heo loại 2,231,bó,Cty D
+24,Thịt heo loại 5,291,chai,Cty C
+25,Thịt heo loại 3,250,kg,Cty B
+26,Muối loại 1,368,kg,Cty B
+27,Thịt bò loại 4,340,lọ,Cty B
+28,Tỏi loại 1,486,lọ,Cty D
+29,Bột chiên loại 3,290,chai,Cty A
+30,Tỏi loại 5,336,lọ,Cty E
+31,Cá loại 2,226,chai,Cty C
+32,Đường loại 5,338,lọ,Cty A
+33,Tỏi loại 3,123,kg,Cty D
+34,Bột chiên loại 4,141,bó,Cty B
+35,Dầu ăn loại 5,441,lọ,Cty B
+36,Muối loại 4,44,kg,Cty E
+37,Dầu ăn loại 1,500,chai,Cty C
+38,Bột chiên loại 4,92,chai,Cty C
+39,Cá loại 4,42,bó,Cty C
+40,Muối loại 3,157,lọ,Cty E
+41,Thịt bò loại 1,370,chai,Cty A
+42,Bột chiên loại 3,130,g,Cty A
+43,Bột chiên loại 5,192,lọ,Cty C
+44,Bột chiên loại 1,259,kg,Cty E
+45,Bột chiên loại 3,342,g,Cty B
+46,Hành loại 5,148,bó,Cty E
+47,Đường loại 5,444,chai,Cty E
+48,Thịt heo loại 2,26,bó,Cty C
+49,Muối loại 2,441,kg,Cty C
+50,Dầu ăn loại 1,298,chai,Cty A
+51,Muối loại 2,457,bó,Cty D
+52,Muối loại 2,278,g,Cty C
+53,Bột chiên loại 3,381,lọ,Cty B
+54,Hành loại 2,240,lọ,Cty A
+55,Cá loại 3,420,bó,Cty C
+56,Dầu ăn loại 2,58,chai,Cty C
+57,Dầu ăn loại 3,43,lọ,Cty A
+58,Hành loại 5,241,chai,Cty A
+59,Bột chiên loại 5,335,kg,Cty B
+60,Bột chiên loại 2,267,chai,Cty D
+61,Tỏi loại 1,390,lọ,Cty E
+62,Gạo loại 3,47,g,Cty E
+63,Gạo loại 2,185,kg,Cty A
+64,Hành loại 5,22,chai,Cty D
+65,Đường loại 2,58,g,Cty B
+66,Muối loại 3,129,chai,Cty E
+67,Thịt bò loại 5,276,kg,Cty E
+68,Gạo loại 2,30,g,Cty A
+69,Thịt bò loại 2,53,kg,Cty C
+70,Gạo loại 4,32,chai,Cty C
+71,Thịt heo loại 4,159,bó,Cty A
+72,Đường loại 4,423,kg,Cty E
+73,Đường loại 1,183,bó,Cty D
+74,Thịt bò loại 2,472,bó,Cty B
+75,Muối loại 3,27,lọ,Cty D
+76,Cá loại 1,102,kg,Cty A
+77,Thịt bò loại 2,361,bó,Cty B
+78,Hành loại 5,446,bó,Cty B
+79,Bột chiên loại 5,169,lọ,Cty D
+80,Muối loại 1,463,g,Cty C
+81,Thịt bò loại 2,260,chai,Cty E
+82,Gạo loại 4,360,g,Cty E
+83,Đường loại 4,152,lọ,Cty E
+84,Cá loại 4,45,lọ,Cty E
+85,Gạo loại 1,378,kg,Cty D
+86,Thịt heo loại 2,256,bó,Cty D
+87,Cá loại 4,32,bó,Cty D
+88,Thịt heo loại 2,217,g,Cty D
+89,Thịt bò loại 1,50,lọ,Cty D
+90,Dầu ăn loại 2,103,lọ,Cty E
+91,Muối loại 5,489,bó,Cty C
+92,Bột chiên loại 1,42,g,Cty A
+93,Gạo loại 1,492,kg,Cty A
+94,Dầu ăn loại 4,286,bó,Cty D
+95,Gạo loại 1,162,chai,Cty C
+96,Gạo loại 1,215,chai,Cty B
+97,Muối loại 4,225,chai,Cty D
+98,Bột chiên loại 3,84,lọ,Cty D
+99,Đường loại 2,437,lọ,Cty C
+100,Gạo loại 4,181,bó,Cty D
+101,Hành loại 3,269,lọ,Cty A
+102,Hành loại 5,419,bó,Cty D
+103,Muối loại 3,209,bó,Cty B
+104,Muối loại 4,395,chai,Cty E
+105,Gạo loại 2,460,lọ,Cty B
+106,Tỏi loại 4,454,chai,Cty E
+107,Hành loại 1,435,lọ,Cty D
+108,Thịt bò loại 3,159,g,Cty A
+109,Cá loại 3,246,lọ,Cty D
+110,Muối loại 3,124,bó,Cty E
+111,Bột chiên loại 3,499,lọ,Cty C
+112,Đường loại 4,56,chai,Cty E
+113,Hành loại 3,155,chai,Cty D
+114,Tỏi loại 1,168,bó,Cty E
+115,Dầu ăn loại 3,353,lọ,Cty D
+116,Thịt bò loại 1,319,g,Cty B
+117,Hành loại 5,201,kg,Cty D
+118,Dầu ăn loại 5,356,kg,Cty A
+119,Hành loại 5,240,bó,Cty D
+120,Muối loại 5,449,kg,Cty E
+121,Đường loại 3,325,g,Cty B
+122,Dầu ăn loại 5,149,kg,Cty C
+123,Hành loại 1,176,lọ,Cty D
+124,Hành loại 5,152,bó,Cty C
+125,Dầu ăn loại 3,379,chai,Cty B
+126,Thịt heo loại 1,276,bó,Cty A
+127,Thịt heo loại 4,433,g,Cty B
+128,Thịt bò loại 3,412,bó,Cty B
+129,Thịt heo loại 1,53,bó,Cty E
+130,Muối loại 3,342,chai,Cty D
+131,Cá loại 5,292,g,Cty A
+132,Gạo loại 3,214,chai,Cty D
+133,Đường loại 2,33,g,Cty B
+134,Thịt bò loại 2,463,kg,Cty A
+135,Thịt heo loại 1,269,kg,Cty D
+136,Bột chiên loại 3,414,kg,Cty D
+137,Dầu ăn loại 3,282,kg,Cty A
+138,Thịt heo loại 1,34,chai,Cty D
+139,Thịt bò loại 3,235,bó,Cty A
+140,Hành loại 5,365,g,Cty E
+141,Bột chiên loại 3,198,chai,Cty C
+142,Thịt bò loại 4,257,lọ,Cty A
+143,Hành loại 1,100,lọ,Cty B
+144,Muối loại 4,200,bó,Cty D
+145,Dầu ăn loại 5,249,g,Cty E
+146,Hành loại 4,42,lọ,Cty C
+147,Gạo loại 4,421,kg,Cty D
+148,Bột chiên loại 5,259,chai,Cty C
+149,Thịt bò loại 4,323,g,Cty A
+150,Muối loại 3,439,g,Cty D
+151,Thịt heo loại 3,440,bó,Cty E
+152,Muối loại 3,263,kg,Cty B
+153,Cá loại 4,183,kg,Cty D
+154,Cá loại 4,344,chai,Cty C
+155,Muối loại 2,86,chai,Cty C
+156,Thịt bò loại 5,268,g,Cty B
+157,Muối loại 5,85,kg,Cty D
+158,Tỏi loại 5,384,bó,Cty A
+159,Muối loại 5,478,lọ,Cty C
+160,Gạo loại 4,50,bó,Cty A
+161,Tỏi loại 1,492,kg,Cty D
+162,Gạo loại 2,316,kg,Cty D
+163,Bột chiên loại 3,134,lọ,Cty C
+164,Hành loại 4,363,lọ,Cty E
+165,Thịt heo loại 3,90,kg,Cty E
+166,Tỏi loại 2,462,g,Cty A
+167,Tỏi loại 4,52,lọ,Cty E
+168,Thịt heo loại 1,239,g,Cty B
+169,Thịt bò loại 5,140,bó,Cty D
+170,Đường loại 4,338,bó,Cty B
+171,Đường loại 1,481,bó,Cty A
+172,Bột chiên loại 1,248,chai,Cty B
+173,Tỏi loại 4,436,lọ,Cty D
+174,Muối loại 5,320,kg,Cty A
+175,Thịt bò loại 4,221,kg,Cty B
+176,Thịt bò loại 1,216,kg,Cty E
+177,Bột chiên loại 3,74,kg,Cty E
+178,Hành loại 4,329,bó,Cty C
+179,Đường loại 3,161,chai,Cty C
+180,Bột chiên loại 3,66,lọ,Cty E
+181,Muối loại 4,311,g,Cty B
+182,Cá loại 3,411,chai,Cty D
+183,Đường loại 3,390,lọ,Cty A
+184,Tỏi loại 1,217,bó,Cty A
+185,Muối loại 1,144,kg,Cty E
+186,Tỏi loại 3,295,chai,Cty C
+187,Thịt bò loại 2,465,bó,Cty B
+188,Dầu ăn loại 5,387,lọ,Cty E
+189,Hành loại 4,250,chai,Cty A
+190,Bột chiên loại 3,482,g,Cty A
+191,Cá loại 5,320,bó,Cty B
+192,Dầu ăn loại 2,399,kg,Cty B
+193,Gạo loại 4,154,lọ,Cty E
+194,Cá loại 3,390,lọ,Cty E
+195,Thịt heo loại 5,405,kg,Cty D
+196,Thịt heo loại 1,496,bó,Cty B
+197,Cá loại 2,408,kg,Cty C
+198,Đường loại 5,389,lọ,Cty C
+199,Đường loại 2,367,kg,Cty C
+200,Đường loại 4,154,bó,Cty C
+201,Cá loại 1,282,chai,Cty E
+202,Thịt bò loại 5,226,bó,Cty A
+203,Hành loại 2,280,bó,Cty C
+204,Bột chiên loại 3,43,chai,Cty B
+205,Gạo loại 3,330,lọ,Cty C
+206,Hành loại 4,123,bó,Cty D
+207,Muối loại 2,126,bó,Cty D
+208,Hành loại 3,364,g,Cty B
+209,Tỏi loại 4,324,chai,Cty E
+210,Thịt bò loại 2,238,bó,Cty C
+211,Dầu ăn loại 5,23,lọ,Cty A
+212,Đường loại 1,13,bó,Cty A
+213,Tỏi loại 1,155,g,Cty D
+214,Muối loại 3,111,g,Cty D
+215,Muối loại 1,125,kg,Cty E
+216,Hành loại 5,475,chai,Cty A
+217,Hành loại 3,184,g,Cty B
+218,Muối loại 4,423,lọ,Cty B
+219,Muối loại 1,338,g,Cty A
+220,Gạo loại 3,209,lọ,Cty E
+221,Gạo loại 2,127,lọ,Cty A
+222,Gạo loại 2,307,lọ,Cty B
+223,Thịt heo loại 3,181,bó,Cty B
+224,Tỏi loại 3,350,g,Cty B
+225,Bột chiên loại 4,23,bó,Cty C
+226,Gạo loại 4,159,kg,Cty B
+227,Tỏi loại 5,98,lọ,Cty D
+228,Bột chiên loại 3,130,chai,Cty A
+229,Dầu ăn loại 1,450,bó,Cty E
+230,Bột chiên loại 4,461,chai,Cty A
+231,Muối loại 2,106,kg,Cty D
+232,Gạo loại 2,476,chai,Cty D
+233,Hành loại 5,440,lọ,Cty D
+234,Thịt bò loại 3,163,chai,Cty E
+235,Thịt bò loại 1,131,bó,Cty C
+236,Cá loại 4,26,chai,Cty E
+237,Hành loại 3,364,g,Cty C
+238,Dầu ăn loại 1,24,g,Cty C
+239,Đường loại 5,445,g,Cty B
+240,Thịt heo loại 2,405,kg,Cty C
+241,Dầu ăn loại 4,446,g,Cty C
+242,Thịt heo loại 3,250,chai,Cty A
+243,Gạo loại 1,270,kg,Cty C
+244,Dầu ăn loại 5,222,bó,Cty B
+245,Tỏi loại 5,473,chai,Cty B
+246,Hành loại 3,95,kg,Cty A
+247,Tỏi loại 4,52,bó,Cty E
+248,Thịt bò loại 2,56,chai,Cty E
+249,Thịt heo loại 2,79,kg,Cty D
+250,Bột chiên loại 5,499,chai,Cty C
+251,Muối loại 1,400,chai,Cty E
+252,Tỏi loại 1,353,kg,Cty D
+253,Muối loại 3,433,kg,Cty A
+254,Hành loại 1,446,lọ,Cty E
+255,Đường loại 4,180,chai,Cty B
+256,Bột chiên loại 4,297,bó,Cty B
+257,Cá loại 2,293,chai,Cty A
+258,Đường loại 1,500,chai,Cty D
+259,Cá loại 3,60,kg,Cty C
+260,Hành loại 4,435,g,Cty A
+261,Dầu ăn loại 4,314,kg,Cty D
+262,Bột chiên loại 2,237,chai,Cty A
+263,Thịt heo loại 4,152,chai,Cty C
+264,Tỏi loại 3,20,chai,Cty E
+265,Thịt heo loại 3,189,lọ,Cty B
+266,Thịt heo loại 3,135,chai,Cty C
+267,Tỏi loại 2,198,kg,Cty A
+268,Hành loại 2,366,chai,Cty E
+269,Gạo loại 3,94,kg,Cty C
+270,Bột chiên loại 3,28,g,Cty D
+271,Thịt heo loại 4,407,bó,Cty B
+272,Bột chiên loại 1,60,lọ,Cty C
+273,Thịt bò loại 4,487,chai,Cty B
+274,Dầu ăn loại 4,190,kg,Cty A
+275,Gạo loại 3,156,bó,Cty E
+276,Bột chiên loại 1,167,kg,Cty E
+277,Cá loại 5,194,bó,Cty B
+278,Tỏi loại 1,299,g,Cty D
+279,Đường loại 4,320,bó,Cty E
+280,Cá loại 2,285,g,Cty E
+281,Muối loại 4,460,g,Cty B
+282,Đường loại 1,230,bó,Cty E
+283,Cá loại 2,45,lọ,Cty E
+284,Thịt heo loại 4,473,lọ,Cty E
+285,Đường loại 2,374,g,Cty D
+286,Thịt heo loại 2,235,bó,Cty A
+287,Bột chiên loại 2,323,g,Cty D
+288,Tỏi loại 2,153,bó,Cty C
+289,Cá loại 4,342,bó,Cty D
+290,Tỏi loại 3,301,chai,Cty C
+291,Thịt bò loại 4,38,chai,Cty E
+292,Cá loại 2,28,lọ,Cty B
+293,Đường loại 2,489,chai,Cty C
+294,Bột chiên loại 3,285,lọ,Cty C
+295,Hành loại 2,90,kg,Cty D
+296,Muối loại 4,121,g,Cty C
+297,Thịt heo loại 4,418,lọ,Cty C
+298,Bột chiên loại 5,430,lọ,Cty A
+299,Dầu ăn loại 3,72,lọ,Cty E
+300,Gạo loại 4,326,kg,Cty B
+301,Thịt heo loại 3,75,lọ,Cty C
+302,Tỏi loại 4,275,lọ,Cty C
+303,Muối loại 3,276,lọ,Cty E
+304,Cá loại 4,492,lọ,Cty E
+305,Muối loại 4,77,bó,Cty B
+306,Hành loại 5,484,g,Cty C
+307,Dầu ăn loại 1,453,kg,Cty B
+308,Thịt bò loại 3,182,g,Cty C
+309,Thịt bò loại 2,141,lọ,Cty E
+310,Cá loại 2,109,bó,Cty D
+311,Muối loại 2,481,bó,Cty E
+312,Thịt bò loại 5,303,g,Cty A
+313,Bột chiên loại 5,353,kg,Cty B
+314,Thịt bò loại 2,288,chai,Cty D
+315,Tỏi loại 2,257,g,Cty C
+316,Bột chiên loại 2,53,chai,Cty E
+317,Gạo loại 2,268,kg,Cty B
+318,Dầu ăn loại 2,336,bó,Cty E
+319,Thịt bò loại 5,454,g,Cty A
+320,Bột chiên loại 1,474,kg,Cty D
+321,Thịt heo loại 2,393,bó,Cty D
+322,Thịt heo loại 1,99,bó,Cty C
+323,Đường loại 3,31,g,Cty B
+324,Đường loại 1,73,kg,Cty C
+325,Hành loại 5,260,lọ,Cty B
+326,Thịt heo loại 2,340,g,Cty A
+327,Đường loại 3,200,chai,Cty E
+328,Hành loại 3,369,g,Cty E
+329,Thịt bò loại 4,218,lọ,Cty E
+330,Cá loại 4,399,lọ,Cty C
+331,Gạo loại 4,174,chai,Cty D
+332,Dầu ăn loại 5,149,kg,Cty A
+333,Muối loại 3,346,kg,Cty A
+334,Tỏi loại 3,98,chai,Cty A
+335,Tỏi loại 2,17,lọ,Cty A
+336,Đường loại 3,154,chai,Cty A
+337,Đường loại 2,139,bó,Cty C
+338,Cá loại 5,345,g,Cty B
+339,Thịt heo loại 1,325,bó,Cty B
+340,Tỏi loại 1,496,g,Cty B
+341,Thịt bò loại 4,410,g,Cty B
+342,Gạo loại 4,156,bó,Cty D
+343,Thịt heo loại 4,400,bó,Cty C
+344,Thịt bò loại 4,426,bó,Cty D
+345,Tỏi loại 1,212,chai,Cty D
+346,Bột chiên loại 4,296,lọ,Cty A
+347,Dầu ăn loại 2,151,kg,Cty B
+348,Thịt bò loại 4,102,chai,Cty D
+349,Gạo loại 2,258,chai,Cty E
+350,Bột chiên loại 4,381,lọ,Cty E
+351,Thịt bò loại 5,42,bó,Cty E
+352,Bột chiên loại 2,469,bó,Cty D
+353,Cá loại 5,116,bó,Cty B
+354,Đường loại 3,390,bó,Cty B
+355,Gạo loại 5,85,bó,Cty E
+356,Thịt heo loại 3,15,chai,Cty C
+357,Dầu ăn loại 1,101,lọ,Cty D
+358,Đường loại 3,298,chai,Cty C
+359,Dầu ăn loại 5,406,lọ,Cty A
+360,Bột chiên loại 2,74,lọ,Cty C
+361,Gạo loại 4,295,lọ,Cty A
+362,Đường loại 3,261,lọ,Cty A
+363,Đường loại 5,308,g,Cty C
+364,Hành loại 5,23,chai,Cty A
+365,Tỏi loại 5,304,bó,Cty C
+366,Cá loại 3,90,lọ,Cty A
+367,Muối loại 2,184,bó,Cty E
+368,Dầu ăn loại 2,86,bó,Cty C
+369,Thịt bò loại 1,344,lọ,Cty E
+370,Muối loại 4,464,kg,Cty A
+371,Đường loại 2,437,chai,Cty A
+372,Thịt bò loại 4,163,kg,Cty E
+373,Bột chiên loại 1,195,g,Cty B
+374,Hành loại 1,287,lọ,Cty D
+375,Thịt bò loại 5,109,g,Cty E
+376,Đường loại 5,71,kg,Cty B
+377,Dầu ăn loại 4,414,lọ,Cty A
+378,Bột chiên loại 1,121,bó,Cty D
+379,Hành loại 5,53,g,Cty C
+380,Dầu ăn loại 3,256,bó,Cty E
+381,Thịt heo loại 2,42,g,Cty B
+382,Thịt heo loại 4,385,lọ,Cty A
+383,Bột chiên loại 3,257,kg,Cty E
+384,Muối loại 5,296,lọ,Cty A
+385,Gạo loại 5,101,g,Cty C
+386,Đường loại 5,269,kg,Cty A
+387,Muối loại 5,75,g,Cty C
+388,Tỏi loại 2,70,g,Cty C
+389,Thịt bò loại 2,496,lọ,Cty E
+390,Thịt bò loại 1,301,g,Cty E
+391,Muối loại 5,96,bó,Cty E
+392,Gạo loại 3,212,chai,Cty D
+393,Thịt bò loại 4,155,g,Cty D
+394,Cá loại 1,399,g,Cty D
+395,Thịt heo loại 3,275,chai,Cty B
+396,Tỏi loại 2,74,kg,Cty D
+397,Tỏi loại 3,392,kg,Cty B
+398,Gạo loại 2,435,lọ,Cty A
+399,Tỏi loại 2,463,lọ,Cty A
+400,Cá loại 4,453,kg,Cty E
+401,Gạo loại 4,495,bó,Cty D
+402,Thịt bò loại 3,335,chai,Cty D
+403,Thịt heo loại 2,56,chai,Cty E
+404,Cá loại 3,349,kg,Cty E
+405,Dầu ăn loại 3,33,chai,Cty A
+406,Dầu ăn loại 4,300,kg,Cty A
+407,Gạo loại 3,69,chai,Cty E
+408,Hành loại 2,47,kg,Cty C
+409,Dầu ăn loại 1,221,chai,Cty D
+410,Tỏi loại 2,225,kg,Cty E
+411,Muối loại 1,118,lọ,Cty D
+412,Bột chiên loại 1,248,kg,Cty D
+413,Thịt heo loại 3,485,kg,Cty D
+414,Bột chiên loại 4,439,lọ,Cty B
+415,Dầu ăn loại 2,404,chai,Cty A
+416,Thịt heo loại 1,70,chai,Cty D
+417,Hành loại 5,45,lọ,Cty C
+418,Đường loại 4,448,kg,Cty B
+419,Gạo loại 5,93,bó,Cty B
+420,Muối loại 4,122,lọ,Cty E
+421,Dầu ăn loại 4,233,bó,Cty B
+422,Dầu ăn loại 2,281,bó,Cty E
+423,Hành loại 5,310,kg,Cty C
+424,Muối loại 2,446,bó,Cty D
+425,Dầu ăn loại 4,309,lọ,Cty A
+426,Hành loại 4,369,g,Cty E
+427,Thịt heo loại 3,344,kg,Cty A
+428,Hành loại 4,448,kg,Cty B
+429,Muối loại 1,140,kg,Cty B
+430,Thịt heo loại 1,402,lọ,Cty E
+431,Muối loại 4,165,kg,Cty C
+432,Tỏi loại 4,239,lọ,Cty A
+433,Thịt heo loại 4,489,g,Cty C
+434,Hành loại 2,166,lọ,Cty B
+435,Bột chiên loại 3,196,g,Cty B
+436,Muối loại 4,237,kg,Cty C
+437,Thịt bò loại 1,460,g,Cty C
+438,Dầu ăn loại 4,488,g,Cty C
+439,Đường loại 5,133,chai,Cty B
+440,Bột chiên loại 1,120,bó,Cty A
+441,Bột chiên loại 1,415,kg,Cty A
+442,Gạo loại 5,27,g,Cty D
+443,Tỏi loại 5,288,kg,Cty E
+444,Dầu ăn loại 1,389,g,Cty C
+445,Cá loại 1,182,bó,Cty D
+446,Đường loại 4,470,g,Cty E
+447,Cá loại 2,335,lọ,Cty D
+448,Gạo loại 5,294,g,Cty C
+449,Tỏi loại 5,216,kg,Cty A
+450,Hành loại 3,196,g,Cty B
+451,Hành loại 5,427,kg,Cty E
+452,Thịt bò loại 5,108,chai,Cty B
+453,Muối loại 2,227,kg,Cty C
+454,Đường loại 5,276,kg,Cty D
+455,Thịt bò loại 3,313,bó,Cty A
+456,Gạo loại 2,12,lọ,Cty C
+457,Đường loại 1,314,g,Cty D
+458,Dầu ăn loại 1,251,g,Cty E
+459,Gạo loại 1,271,lọ,Cty C
+460,Muối loại 3,498,lọ,Cty C
+461,Dầu ăn loại 5,477,bó,Cty C
+462,Hành loại 3,273,chai,Cty A
+463,Tỏi loại 4,26,bó,Cty A
+464,Bột chiên loại 1,172,kg,Cty D
+465,Thịt bò loại 4,66,lọ,Cty C
+466,Bột chiên loại 1,432,g,Cty D
+467,Gạo loại 1,314,bó,Cty A
+468,Gạo loại 1,464,kg,Cty E
+469,Muối loại 4,261,g,Cty E
+470,Đường loại 3,77,chai,Cty C
+471,Bột chiên loại 2,355,lọ,Cty B
+472,Đường loại 4,338,lọ,Cty E
+473,Tỏi loại 5,338,chai,Cty A
+474,Thịt heo loại 4,239,chai,Cty D
+475,Tỏi loại 4,33,chai,Cty D
+476,Muối loại 4,63,kg,Cty D
+477,Hành loại 4,411,chai,Cty A
+478,Cá loại 4,63,bó,Cty D
+479,Tỏi loại 1,233,chai,Cty D
+480,Đường loại 2,119,chai,Cty A
+481,Thịt heo loại 2,32,chai,Cty D
+482,Tỏi loại 5,56,bó,Cty D
+483,Dầu ăn loại 4,379,kg,Cty C
+484,Gạo loại 1,106,kg,Cty E
+485,Thịt heo loại 1,483,bó,Cty C
+486,Thịt heo loại 4,491,chai,Cty B
+487,Thịt heo loại 3,40,bó,Cty A
+488,Cá loại 4,498,lọ,Cty B
+489,Thịt heo loại 4,311,chai,Cty C
+490,Hành loại 1,357,g,Cty D
+491,Dầu ăn loại 5,381,g,Cty D
+492,Hành loại 3,54,bó,Cty C
+493,Gạo loại 2,293,g,Cty D
+494,Thịt bò loại 5,260,bó,Cty E
+495,Muối loại 4,350,lọ,Cty B
+496,Đường loại 2,17,bó,Cty E
+497,Bột chiên loại 3,395,bó,Cty E
+498,Dầu ăn loại 4,194,kg,Cty D
+499,Thịt heo loại 3,365,kg,Cty D
+500,Thịt bò loại 3,421,bó,Cty B

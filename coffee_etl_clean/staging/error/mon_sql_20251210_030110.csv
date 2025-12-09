@@ -1,0 +1,6 @@
+﻿id,ten_mon,loai_id,gia,_errors,_row_number
+107,@@Món lỗi,2,15000.0,"ten_mon: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\s\-,\.()]{2,200}$)",102
+108,Món lỗi giá âm,3,-5000.0,gia: Phải là số dương (regex: ^\d+(\.\d+)?$),103
+109,Món lỗi null giá,4,,gia: Không rỗng,104
+110,,5,20000.0,ten_mon: Không rỗng,105
+111,Giá bằng 0,1,0.0,gia: Phải > 0,106

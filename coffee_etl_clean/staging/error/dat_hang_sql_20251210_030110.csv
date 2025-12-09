@@ -1,0 +1,13 @@
+﻿id,khach_hang_id,mon_id,so_luong,ngay_dat,trang_thai,_errors,_row_number
+151,2,1,1,2025-11-14,,trang_thai: Không rỗng,151
+152,3,2,2,2025-11-14,,trang_thai: Không rỗng,152
+153,4,3,1,2025-11-14,StatusSai,trang_thai: Giá trị không hợp lệ (không thuộc danh sách trạng thái cho phép),153
+154,5,4,1,2025-11-14,@@@,trang_thai: Không chứa ký tự đặc biệt,154
+157,8,7,0,2025-11-14,Đang xử lý,so_luong: Phải là số nguyên dương (regex: ^[1-9]\d*$),156
+159,10,9,1,,Đang xử lý,ngay_dat: Không rỗng,158
+163,14,13,1,2025-11-14,Đang\txử lý,trang_thai: Không chứa ký tự đặc biệt,162
+164,15,14,1,2025-11-14,Đang\nXử lý,trang_thai: Không chứa ký tự đặc biệt,163
+165,16,15,1,2025-11-14,😀😀😀,trang_thai: Không chứa ký tự đặc biệt,164
+167,18,17,1,2025-11-14,#Đang xử lý,trang_thai: Không chứa ký tự đặc biệt,166
+168,19,18,1,2025-11-14,XL,trang_thai: Giá trị không hợp lệ (không thuộc danh sách trạng thái cho phép),167
+169,20,19,1,2025-11-14,     ,trang_thai: Không rỗng,168

@@ -1,0 +1,8 @@
+﻿id,ten_loai,mo_ta,_source,_extract_time,_run_id
+1,Ăn sáng3,Sản phẩm dành cho ăn sáng,csv,2025-12-10T03:00:52.157567,20251210_030051
+2,Ăn trưa,Sản phẩm dành cho ăn trưa,csv,2025-12-10T03:00:52.158584,20251210_030051
+3,Ăn tối33,Sản phẩm dành cho ăn tối,csv,2025-12-10T03:00:52.158584,20251210_030051
+4,Ăn nhẹ,Sản phẩm dành cho ăn nhẹ,csv,2025-12-10T03:00:52.158584,20251210_030051
+5,Đồ uống2,Sản phẩm dành cho đồ uống,csv,2025-12-10T03:00:52.158584,20251210_030051
+6,Đồ ăn vặt,Sản phẩm dành cho đồ ăn vặt,csv,2025-12-10T03:00:52.158584,20251210_030051
+7,,Sản phẩm dành cho đồ ăn nhanh,csv,2025-12-10T03:00:52.158584,20251210_030051

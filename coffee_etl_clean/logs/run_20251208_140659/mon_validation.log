@@ -1,0 +1,7077 @@
+# Validation Log for mon
+# Run ID: 20251208_140659
+# Created: 2025-12-08 14:07:04
+#==============================================================================
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 1,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)",
+    "gia: Phải là số dương (regex: ^\\d+(\\.\\d+)?$)"
+  ],
+  "data": {
+    "id": "1",
+    "ten_san_pham": "Bánh mì 9",
+    "gia": "abc",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 2,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "2",
+    "ten_san_pham": "Mì xào 2",
+    "gia": "26138",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 3,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "3",
+    "ten_san_pham": "Phở bò 4",
+    "gia": "40103",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 4,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "4",
+    "ten_san_pham": "Cơm sườn 5",
+    "gia": "115506",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 5,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "",
+    "ten_san_pham": "Cơm gà 1",
+    "gia": "109861",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 6,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "6",
+    "ten_san_pham": "Bún chả 17",
+    "gia": "55989",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 7,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "7",
+    "ten_san_pham": "Cơm sườn 19",
+    "gia": "22137",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 8,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "8",
+    "ten_san_pham": "Hủ tiếu 8",
+    "gia": "70546",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 9,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "9",
+    "ten_san_pham": "Mì xào 4",
+    "gia": "71684",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 10,
+  "errors": [
+    "ten_san_pham: Không rỗng"
+  ],
+  "data": {
+    "id": "10",
+    "ten_san_pham": "",
+    "gia": "60200",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 11,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "11",
+    "ten_san_pham": "Cơm gà 2",
+    "gia": "116934",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 12,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "12",
+    "ten_san_pham": "Bún chả 8",
+    "gia": "62640",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 13,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)",
+    "loai: Không rỗng"
+  ],
+  "data": {
+    "id": "13",
+    "ten_san_pham": "Cơm gà 19",
+    "gia": "44000",
+    "loai": ""
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 14,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "14",
+    "ten_san_pham": "Cháo lòng 8",
+    "gia": "39155",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 15,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "15",
+    "ten_san_pham": "Súp cua 10",
+    "gia": "83858",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 16,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "16",
+    "ten_san_pham": "Hủ tiếu 11",
+    "gia": "76692",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 17,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "17",
+    "ten_san_pham": "Súp cua 12",
+    "gia": "88346",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 18,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "18",
+    "ten_san_pham": "Cháo lòng 14",
+    "gia": "81131",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 19,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "19",
+    "ten_san_pham": "Cơm sườn 14",
+    "gia": "24136",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 20,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "20",
+    "ten_san_pham": "Mì xào 9",
+    "gia": "53682",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 21,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "21",
+    "ten_san_pham": "Phở bò 9",
+    "gia": "22753",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 22,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "22",
+    "ten_san_pham": "Súp cua 11",
+    "gia": "104181",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 23,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "23",
+    "ten_san_pham": "Súp cua 7",
+    "gia": "89709",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 24,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "24",
+    "ten_san_pham": "Cơm sườn 1",
+    "gia": "42007",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 25,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "25",
+    "ten_san_pham": "Cơm gà 9",
+    "gia": "55705",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 26,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "26",
+    "ten_san_pham": "Gỏi cuốn 19",
+    "gia": "58168",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 27,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "27",
+    "ten_san_pham": "Cơm sườn 12",
+    "gia": "115020",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 28,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "28",
+    "ten_san_pham": "Gỏi cuốn 15",
+    "gia": "109695",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 29,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "29",
+    "ten_san_pham": "Phở bò 2",
+    "gia": "104880",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 30,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "30",
+    "ten_san_pham": "Phở bò 6",
+    "gia": "87509",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 31,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "31",
+    "ten_san_pham": "Phở bò 20",
+    "gia": "39969",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 32,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "32",
+    "ten_san_pham": "Mì xào 10",
+    "gia": "42297",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 33,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "33",
+    "ten_san_pham": "Cơm sườn 17",
+    "gia": "35127",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 34,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "34",
+    "ten_san_pham": "Cháo lòng 18",
+    "gia": "97895",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 35,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "35",
+    "ten_san_pham": "Hủ tiếu 10",
+    "gia": "83566",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 36,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "36",
+    "ten_san_pham": "Mì xào 18",
+    "gia": "97186",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 37,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "37",
+    "ten_san_pham": "Phở bò 2",
+    "gia": "99007",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 38,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "38",
+    "ten_san_pham": "Bún chả 19",
+    "gia": "32587",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 39,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "39",
+    "ten_san_pham": "Cháo lòng 15",
+    "gia": "50026",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 40,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "40",
+    "ten_san_pham": "Cơm sườn 18",
+    "gia": "103797",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 41,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "41",
+    "ten_san_pham": "Cháo lòng 9",
+    "gia": "92318",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 42,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "42",
+    "ten_san_pham": "Cháo lòng 7",
+    "gia": "45619",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 43,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "43",
+    "ten_san_pham": "Bánh mì 4",
+    "gia": "43304",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 44,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "44",
+    "ten_san_pham": "Hủ tiếu 10",
+    "gia": "81817",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 45,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "45",
+    "ten_san_pham": "Gỏi cuốn 7",
+    "gia": "106009",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 46,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "46",
+    "ten_san_pham": "Mì xào 5",
+    "gia": "48421",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 47,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "47",
+    "ten_san_pham": "Bún chả 16",
+    "gia": "104269",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 48,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "48",
+    "ten_san_pham": "Bún chả 9",
+    "gia": "46449",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 49,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "49",
+    "ten_san_pham": "Bánh mì 20",
+    "gia": "81630",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 50,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "50",
+    "ten_san_pham": "Bánh mì 18",
+    "gia": "117664",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 51,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "51",
+    "ten_san_pham": "Bún chả 6",
+    "gia": "21608",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 52,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "52",
+    "ten_san_pham": "Mì xào 3",
+    "gia": "118268",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 53,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "53",
+    "ten_san_pham": "Bánh mì 5",
+    "gia": "60351",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 54,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "54",
+    "ten_san_pham": "Phở bò 8",
+    "gia": "91477",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 55,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "55",
+    "ten_san_pham": "Mì xào 2",
+    "gia": "41984",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 56,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "56",
+    "ten_san_pham": "Súp cua 19",
+    "gia": "75441",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 57,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "57",
+    "ten_san_pham": "Cơm gà 6",
+    "gia": "73605",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 58,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "58",
+    "ten_san_pham": "Súp cua 3",
+    "gia": "108677",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 59,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "59",
+    "ten_san_pham": "Mì xào 4",
+    "gia": "85997",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 60,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "60",
+    "ten_san_pham": "Súp cua 19",
+    "gia": "118389",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 61,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "61",
+    "ten_san_pham": "Cháo lòng 1",
+    "gia": "105197",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 62,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "62",
+    "ten_san_pham": "Hủ tiếu 15",
+    "gia": "45863",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 63,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "63",
+    "ten_san_pham": "Gỏi cuốn 2",
+    "gia": "66545",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 64,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "64",
+    "ten_san_pham": "Bánh mì 18",
+    "gia": "115500",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 65,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "65",
+    "ten_san_pham": "Cơm sườn 11",
+    "gia": "101275",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 66,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "66",
+    "ten_san_pham": "Hủ tiếu 6",
+    "gia": "114370",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 67,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "67",
+    "ten_san_pham": "Cơm sườn 16",
+    "gia": "23431",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 68,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "68",
+    "ten_san_pham": "Mì xào 4",
+    "gia": "94193",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 69,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "69",
+    "ten_san_pham": "Cơm gà 20",
+    "gia": "23548",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 70,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "70",
+    "ten_san_pham": "Cháo lòng 20",
+    "gia": "86712",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 71,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "71",
+    "ten_san_pham": "Cơm sườn 7",
+    "gia": "75013",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 72,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "72",
+    "ten_san_pham": "Hủ tiếu 12",
+    "gia": "45598",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 73,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "73",
+    "ten_san_pham": "Gỏi cuốn 1",
+    "gia": "107932",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 74,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "74",
+    "ten_san_pham": "Cơm gà 14",
+    "gia": "95607",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 75,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "75",
+    "ten_san_pham": "Bún chả 12",
+    "gia": "20721",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 76,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "76",
+    "ten_san_pham": "Súp cua 5",
+    "gia": "108904",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 77,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "77",
+    "ten_san_pham": "Phở bò 1",
+    "gia": "88102",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 78,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "78",
+    "ten_san_pham": "Phở bò 9",
+    "gia": "71495",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 79,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "79",
+    "ten_san_pham": "Mì xào 10",
+    "gia": "50628",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 80,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "80",
+    "ten_san_pham": "Mì xào 20",
+    "gia": "28110",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 81,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "81",
+    "ten_san_pham": "Hủ tiếu 12",
+    "gia": "72098",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 82,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "82",
+    "ten_san_pham": "Phở bò 4",
+    "gia": "98457",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 83,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "83",
+    "ten_san_pham": "Cơm gà 1",
+    "gia": "114968",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 84,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "84",
+    "ten_san_pham": "Hủ tiếu 11",
+    "gia": "79602",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 85,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "85",
+    "ten_san_pham": "Cơm sườn 20",
+    "gia": "62087",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 86,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "86",
+    "ten_san_pham": "Gỏi cuốn 14",
+    "gia": "81909",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 87,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "87",
+    "ten_san_pham": "Mì xào 11",
+    "gia": "55232",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 88,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "88",
+    "ten_san_pham": "Gỏi cuốn 15",
+    "gia": "42020",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 89,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "89",
+    "ten_san_pham": "Hủ tiếu 16",
+    "gia": "35204",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 90,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "90",
+    "ten_san_pham": "Bún chả 18",
+    "gia": "68077",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 91,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "91",
+    "ten_san_pham": "Súp cua 12",
+    "gia": "43355",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 92,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "92",
+    "ten_san_pham": "Mì xào 15",
+    "gia": "40037",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 93,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "93",
+    "ten_san_pham": "Súp cua 10",
+    "gia": "54432",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 94,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "94",
+    "ten_san_pham": "Bún chả 1",
+    "gia": "97459",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 95,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "95",
+    "ten_san_pham": "Gỏi cuốn 18",
+    "gia": "29984",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 96,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "96",
+    "ten_san_pham": "Phở bò 3",
+    "gia": "31660",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 97,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "97",
+    "ten_san_pham": "Cơm gà 6",
+    "gia": "51543",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 98,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "98",
+    "ten_san_pham": "Hủ tiếu 17",
+    "gia": "109516",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 99,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "99",
+    "ten_san_pham": "Phở bò 1",
+    "gia": "28506",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 100,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "100",
+    "ten_san_pham": "Gỏi cuốn 16",
+    "gia": "68546",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 101,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "101",
+    "ten_san_pham": "Bánh mì 15",
+    "gia": "109496",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 102,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "102",
+    "ten_san_pham": "Bún chả 20",
+    "gia": "63976",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 103,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "103",
+    "ten_san_pham": "Súp cua 12",
+    "gia": "73318",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 104,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "104",
+    "ten_san_pham": "Cơm sườn 8",
+    "gia": "48517",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 105,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "105",
+    "ten_san_pham": "Cơm gà 16",
+    "gia": "21638",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 106,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "106",
+    "ten_san_pham": "Phở bò 15",
+    "gia": "99912",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 107,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "107",
+    "ten_san_pham": "Phở bò 19",
+    "gia": "53270",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 108,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "108",
+    "ten_san_pham": "Bún chả 5",
+    "gia": "115832",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 109,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "109",
+    "ten_san_pham": "Cháo lòng 15",
+    "gia": "105460",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 110,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "110",
+    "ten_san_pham": "Cơm sườn 1",
+    "gia": "92405",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 111,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "111",
+    "ten_san_pham": "Cháo lòng 6",
+    "gia": "114070",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 112,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "112",
+    "ten_san_pham": "Gỏi cuốn 6",
+    "gia": "94309",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 113,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "113",
+    "ten_san_pham": "Bún chả 16",
+    "gia": "54585",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 114,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "114",
+    "ten_san_pham": "Cơm gà 15",
+    "gia": "21121",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 115,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "115",
+    "ten_san_pham": "Gỏi cuốn 2",
+    "gia": "69817",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 116,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "116",
+    "ten_san_pham": "Bún chả 11",
+    "gia": "73840",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 117,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "117",
+    "ten_san_pham": "Hủ tiếu 19",
+    "gia": "71306",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 118,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "118",
+    "ten_san_pham": "Cơm gà 7",
+    "gia": "64787",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 119,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "119",
+    "ten_san_pham": "Cháo lòng 18",
+    "gia": "66587",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 120,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "120",
+    "ten_san_pham": "Cơm gà 8",
+    "gia": "76483",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 121,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "121",
+    "ten_san_pham": "Bún chả 6",
+    "gia": "94950",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 122,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "122",
+    "ten_san_pham": "Súp cua 17",
+    "gia": "47055",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 123,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "123",
+    "ten_san_pham": "Súp cua 3",
+    "gia": "28459",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 124,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "124",
+    "ten_san_pham": "Mì xào 8",
+    "gia": "106424",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 125,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "125",
+    "ten_san_pham": "Cơm sườn 4",
+    "gia": "104346",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 126,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "126",
+    "ten_san_pham": "Bánh mì 16",
+    "gia": "107319",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 127,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "127",
+    "ten_san_pham": "Phở bò 17",
+    "gia": "71657",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 128,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "128",
+    "ten_san_pham": "Cơm sườn 18",
+    "gia": "64023",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 129,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "129",
+    "ten_san_pham": "Súp cua 2",
+    "gia": "69853",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 130,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "130",
+    "ten_san_pham": "Mì xào 4",
+    "gia": "56380",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 131,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "131",
+    "ten_san_pham": "Súp cua 9",
+    "gia": "41900",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 132,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "132",
+    "ten_san_pham": "Súp cua 12",
+    "gia": "67814",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 133,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "133",
+    "ten_san_pham": "Mì xào 11",
+    "gia": "98179",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 134,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "134",
+    "ten_san_pham": "Bún chả 18",
+    "gia": "45752",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 135,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "135",
+    "ten_san_pham": "Bún chả 18",
+    "gia": "98212",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 136,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "136",
+    "ten_san_pham": "Cơm gà 15",
+    "gia": "50687",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 137,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "137",
+    "ten_san_pham": "Mì xào 20",
+    "gia": "64737",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 138,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "138",
+    "ten_san_pham": "Bánh mì 8",
+    "gia": "100764",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 139,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "139",
+    "ten_san_pham": "Súp cua 6",
+    "gia": "32000",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 140,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "140",
+    "ten_san_pham": "Gỏi cuốn 8",
+    "gia": "23565",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 141,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "141",
+    "ten_san_pham": "Súp cua 17",
+    "gia": "83967",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 142,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "142",
+    "ten_san_pham": "Bún chả 2",
+    "gia": "32664",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 143,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "143",
+    "ten_san_pham": "Cơm sườn 3",
+    "gia": "48203",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 144,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "144",
+    "ten_san_pham": "Súp cua 13",
+    "gia": "85693",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 145,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "145",
+    "ten_san_pham": "Mì xào 19",
+    "gia": "110866",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 146,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "146",
+    "ten_san_pham": "Bún chả 4",
+    "gia": "26598",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 147,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "147",
+    "ten_san_pham": "Cơm gà 1",
+    "gia": "28312",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 148,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "148",
+    "ten_san_pham": "Mì xào 8",
+    "gia": "73115",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 149,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "149",
+    "ten_san_pham": "Bánh mì 6",
+    "gia": "48022",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 150,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "150",
+    "ten_san_pham": "Hủ tiếu 12",
+    "gia": "34426",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 151,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "151",
+    "ten_san_pham": "Súp cua 14",
+    "gia": "48552",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 152,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "152",
+    "ten_san_pham": "Mì xào 19",
+    "gia": "85290",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 153,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "153",
+    "ten_san_pham": "Gỏi cuốn 18",
+    "gia": "92645",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 154,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "154",
+    "ten_san_pham": "Cháo lòng 2",
+    "gia": "91180",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 155,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "155",
+    "ten_san_pham": "Phở bò 6",
+    "gia": "41756",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 156,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "156",
+    "ten_san_pham": "Gỏi cuốn 9",
+    "gia": "27918",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 157,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "157",
+    "ten_san_pham": "Cơm gà 4",
+    "gia": "51935",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 158,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "158",
+    "ten_san_pham": "Cơm sườn 16",
+    "gia": "68345",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 159,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "159",
+    "ten_san_pham": "Súp cua 20",
+    "gia": "108469",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 160,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "160",
+    "ten_san_pham": "Bún chả 19",
+    "gia": "113148",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 161,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "161",
+    "ten_san_pham": "Hủ tiếu 13",
+    "gia": "86505",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 162,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "162",
+    "ten_san_pham": "Mì xào 3",
+    "gia": "73828",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 163,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "163",
+    "ten_san_pham": "Cháo lòng 9",
+    "gia": "109970",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 164,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "164",
+    "ten_san_pham": "Cháo lòng 8",
+    "gia": "34927",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 165,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "165",
+    "ten_san_pham": "Súp cua 14",
+    "gia": "43977",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 166,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "166",
+    "ten_san_pham": "Cơm gà 11",
+    "gia": "63576",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 167,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "167",
+    "ten_san_pham": "Phở bò 17",
+    "gia": "80385",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 168,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "168",
+    "ten_san_pham": "Bún chả 18",
+    "gia": "110286",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 169,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "169",
+    "ten_san_pham": "Bánh mì 3",
+    "gia": "74731",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 170,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "170",
+    "ten_san_pham": "Hủ tiếu 3",
+    "gia": "114009",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 171,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "171",
+    "ten_san_pham": "Bánh mì 1",
+    "gia": "52737",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 172,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "172",
+    "ten_san_pham": "Phở bò 16",
+    "gia": "56002",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 173,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "173",
+    "ten_san_pham": "Súp cua 8",
+    "gia": "47326",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 174,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "174",
+    "ten_san_pham": "Phở bò 13",
+    "gia": "21394",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 175,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "175",
+    "ten_san_pham": "Bánh mì 6",
+    "gia": "88187",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 176,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "176",
+    "ten_san_pham": "Mì xào 2",
+    "gia": "84210",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 177,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "177",
+    "ten_san_pham": "Súp cua 17",
+    "gia": "74336",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 178,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "178",
+    "ten_san_pham": "Bún chả 4",
+    "gia": "36126",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 179,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "179",
+    "ten_san_pham": "Mì xào 7",
+    "gia": "105067",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 180,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "180",
+    "ten_san_pham": "Gỏi cuốn 2",
+    "gia": "21793",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 181,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "181",
+    "ten_san_pham": "Phở bò 19",
+    "gia": "52351",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 182,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "182",
+    "ten_san_pham": "Súp cua 14",
+    "gia": "31536",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 183,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "183",
+    "ten_san_pham": "Phở bò 17",
+    "gia": "30382",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 184,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "184",
+    "ten_san_pham": "Hủ tiếu 1",
+    "gia": "29733",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 185,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "185",
+    "ten_san_pham": "Cơm gà 8",
+    "gia": "25388",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 186,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "186",
+    "ten_san_pham": "Cơm sườn 6",
+    "gia": "68109",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 187,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "187",
+    "ten_san_pham": "Cơm gà 3",
+    "gia": "39037",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 188,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "188",
+    "ten_san_pham": "Cơm sườn 17",
+    "gia": "92186",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 189,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "189",
+    "ten_san_pham": "Hủ tiếu 2",
+    "gia": "79083",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 190,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "190",
+    "ten_san_pham": "Mì xào 6",
+    "gia": "109942",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 191,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "191",
+    "ten_san_pham": "Bún chả 15",
+    "gia": "94809",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 192,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "192",
+    "ten_san_pham": "Hủ tiếu 17",
+    "gia": "29109",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 193,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "193",
+    "ten_san_pham": "Súp cua 15",
+    "gia": "96480",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 194,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "194",
+    "ten_san_pham": "Súp cua 16",
+    "gia": "80211",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 195,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "195",
+    "ten_san_pham": "Bánh mì 9",
+    "gia": "61731",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 196,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "196",
+    "ten_san_pham": "Hủ tiếu 9",
+    "gia": "88041",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 197,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "197",
+    "ten_san_pham": "Súp cua 1",
+    "gia": "72624",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 198,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "198",
+    "ten_san_pham": "Mì xào 7",
+    "gia": "29284",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 199,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "199",
+    "ten_san_pham": "Mì xào 9",
+    "gia": "97546",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 200,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "200",
+    "ten_san_pham": "Hủ tiếu 3",
+    "gia": "60032",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 201,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "201",
+    "ten_san_pham": "Cơm gà 11",
+    "gia": "105132",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 202,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "202",
+    "ten_san_pham": "Cơm sườn 8",
+    "gia": "57608",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 203,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "203",
+    "ten_san_pham": "Mì xào 10",
+    "gia": "82252",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 204,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "204",
+    "ten_san_pham": "Cơm sườn 5",
+    "gia": "86578",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 205,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "205",
+    "ten_san_pham": "Hủ tiếu 13",
+    "gia": "44418",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 206,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "206",
+    "ten_san_pham": "Súp cua 11",
+    "gia": "80873",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 207,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "207",
+    "ten_san_pham": "Cơm sườn 8",
+    "gia": "94100",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 208,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "208",
+    "ten_san_pham": "Cơm sườn 3",
+    "gia": "40113",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 209,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "209",
+    "ten_san_pham": "Mì xào 4",
+    "gia": "36025",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 210,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "210",
+    "ten_san_pham": "Hủ tiếu 11",
+    "gia": "80397",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 211,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "211",
+    "ten_san_pham": "Phở bò 10",
+    "gia": "93693",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 212,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "212",
+    "ten_san_pham": "Bún chả 8",
+    "gia": "111653",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 213,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "213",
+    "ten_san_pham": "Hủ tiếu 4",
+    "gia": "96715",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 214,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "214",
+    "ten_san_pham": "Gỏi cuốn 7",
+    "gia": "34460",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 215,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "215",
+    "ten_san_pham": "Phở bò 2",
+    "gia": "98385",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 216,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "216",
+    "ten_san_pham": "Súp cua 2",
+    "gia": "62993",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 217,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "217",
+    "ten_san_pham": "Hủ tiếu 13",
+    "gia": "70054",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 218,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "218",
+    "ten_san_pham": "Cháo lòng 19",
+    "gia": "24497",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 219,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "219",
+    "ten_san_pham": "Hủ tiếu 6",
+    "gia": "79608",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 220,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "220",
+    "ten_san_pham": "Cơm gà 13",
+    "gia": "36206",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 221,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "221",
+    "ten_san_pham": "Bánh mì 12",
+    "gia": "51989",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 222,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "222",
+    "ten_san_pham": "Gỏi cuốn 13",
+    "gia": "60441",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 223,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "223",
+    "ten_san_pham": "Cháo lòng 19",
+    "gia": "44387",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 224,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "224",
+    "ten_san_pham": "Phở bò 20",
+    "gia": "110214",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 225,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "225",
+    "ten_san_pham": "Hủ tiếu 17",
+    "gia": "111202",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 226,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "226",
+    "ten_san_pham": "Bánh mì 7",
+    "gia": "50661",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 227,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "227",
+    "ten_san_pham": "Súp cua 13",
+    "gia": "82826",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 228,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "228",
+    "ten_san_pham": "Cơm sườn 17",
+    "gia": "86054",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 229,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "229",
+    "ten_san_pham": "Cơm gà 4",
+    "gia": "48654",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 230,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "230",
+    "ten_san_pham": "Cơm gà 16",
+    "gia": "108010",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 231,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "231",
+    "ten_san_pham": "Cơm gà 11",
+    "gia": "30222",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 232,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "232",
+    "ten_san_pham": "Súp cua 18",
+    "gia": "80085",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 233,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "233",
+    "ten_san_pham": "Gỏi cuốn 14",
+    "gia": "93728",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 234,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "234",
+    "ten_san_pham": "Súp cua 11",
+    "gia": "100393",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 235,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "235",
+    "ten_san_pham": "Cháo lòng 5",
+    "gia": "53116",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 236,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "236",
+    "ten_san_pham": "Phở bò 5",
+    "gia": "107590",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 237,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "237",
+    "ten_san_pham": "Bánh mì 18",
+    "gia": "109025",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 238,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "238",
+    "ten_san_pham": "Súp cua 1",
+    "gia": "117583",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 239,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "239",
+    "ten_san_pham": "Hủ tiếu 11",
+    "gia": "26513",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 240,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "240",
+    "ten_san_pham": "Cơm sườn 2",
+    "gia": "35713",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 241,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "241",
+    "ten_san_pham": "Mì xào 8",
+    "gia": "22988",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 242,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "242",
+    "ten_san_pham": "Súp cua 4",
+    "gia": "97705",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:04",
+  "row_number": 243,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "243",
+    "ten_san_pham": "Mì xào 10",
+    "gia": "86076",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 244,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "244",
+    "ten_san_pham": "Cơm gà 10",
+    "gia": "95202",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 245,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "245",
+    "ten_san_pham": "Gỏi cuốn 16",
+    "gia": "53480",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 246,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "246",
+    "ten_san_pham": "Súp cua 16",
+    "gia": "115163",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 247,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "247",
+    "ten_san_pham": "Cơm sườn 6",
+    "gia": "98538",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 248,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "248",
+    "ten_san_pham": "Cơm gà 7",
+    "gia": "31046",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 249,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "249",
+    "ten_san_pham": "Súp cua 2",
+    "gia": "98653",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 250,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "250",
+    "ten_san_pham": "Bún chả 16",
+    "gia": "60203",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 251,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "251",
+    "ten_san_pham": "Hủ tiếu 2",
+    "gia": "99975",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 252,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "252",
+    "ten_san_pham": "Cơm sườn 20",
+    "gia": "73060",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 253,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "253",
+    "ten_san_pham": "Bánh mì 2",
+    "gia": "41076",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 254,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "254",
+    "ten_san_pham": "Phở bò 6",
+    "gia": "110700",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 255,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "255",
+    "ten_san_pham": "Cơm gà 17",
+    "gia": "71541",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 256,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "256",
+    "ten_san_pham": "Phở bò 12",
+    "gia": "81739",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 257,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "257",
+    "ten_san_pham": "Bún chả 1",
+    "gia": "71503",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 258,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "258",
+    "ten_san_pham": "Cháo lòng 16",
+    "gia": "34606",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 259,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "259",
+    "ten_san_pham": "Bánh mì 5",
+    "gia": "97508",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 260,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "260",
+    "ten_san_pham": "Cháo lòng 3",
+    "gia": "25209",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 261,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "261",
+    "ten_san_pham": "Phở bò 15",
+    "gia": "39309",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 262,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "262",
+    "ten_san_pham": "Phở bò 18",
+    "gia": "54098",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 263,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "263",
+    "ten_san_pham": "Cơm sườn 12",
+    "gia": "61408",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 264,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "264",
+    "ten_san_pham": "Cơm sườn 12",
+    "gia": "100325",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 265,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "265",
+    "ten_san_pham": "Bún chả 8",
+    "gia": "84762",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 266,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "266",
+    "ten_san_pham": "Mì xào 6",
+    "gia": "91345",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 267,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "267",
+    "ten_san_pham": "Cháo lòng 20",
+    "gia": "82065",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 268,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "268",
+    "ten_san_pham": "Cơm gà 19",
+    "gia": "27228",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 269,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "269",
+    "ten_san_pham": "Gỏi cuốn 12",
+    "gia": "74500",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 270,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "270",
+    "ten_san_pham": "Cơm gà 2",
+    "gia": "60996",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 271,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "271",
+    "ten_san_pham": "Cơm sườn 13",
+    "gia": "39697",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 272,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "272",
+    "ten_san_pham": "Phở bò 7",
+    "gia": "55905",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 273,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "273",
+    "ten_san_pham": "Bún chả 11",
+    "gia": "82856",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 274,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "274",
+    "ten_san_pham": "Hủ tiếu 19",
+    "gia": "27684",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 275,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "275",
+    "ten_san_pham": "Súp cua 11",
+    "gia": "60307",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 276,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "276",
+    "ten_san_pham": "Cơm sườn 5",
+    "gia": "30043",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 277,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "277",
+    "ten_san_pham": "Hủ tiếu 5",
+    "gia": "30613",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 278,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "278",
+    "ten_san_pham": "Bún chả 2",
+    "gia": "71250",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 279,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "279",
+    "ten_san_pham": "Bánh mì 17",
+    "gia": "51953",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 280,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "280",
+    "ten_san_pham": "Bánh mì 12",
+    "gia": "115986",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 281,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "281",
+    "ten_san_pham": "Phở bò 8",
+    "gia": "47973",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 282,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "282",
+    "ten_san_pham": "Bánh mì 15",
+    "gia": "68120",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 283,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "283",
+    "ten_san_pham": "Gỏi cuốn 13",
+    "gia": "75884",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 284,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "284",
+    "ten_san_pham": "Gỏi cuốn 2",
+    "gia": "30972",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 285,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "285",
+    "ten_san_pham": "Cơm gà 10",
+    "gia": "81845",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 286,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "286",
+    "ten_san_pham": "Bún chả 11",
+    "gia": "51939",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 287,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "287",
+    "ten_san_pham": "Gỏi cuốn 17",
+    "gia": "58879",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 288,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "288",
+    "ten_san_pham": "Cháo lòng 13",
+    "gia": "32567",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 289,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "289",
+    "ten_san_pham": "Cơm sườn 9",
+    "gia": "46098",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 290,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "290",
+    "ten_san_pham": "Hủ tiếu 12",
+    "gia": "113221",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 291,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "291",
+    "ten_san_pham": "Cơm sườn 13",
+    "gia": "56628",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 292,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "292",
+    "ten_san_pham": "Bún chả 6",
+    "gia": "104377",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 293,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "293",
+    "ten_san_pham": "Súp cua 1",
+    "gia": "85253",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 294,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "294",
+    "ten_san_pham": "Súp cua 10",
+    "gia": "60779",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 295,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "295",
+    "ten_san_pham": "Súp cua 7",
+    "gia": "82577",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 296,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "296",
+    "ten_san_pham": "Cháo lòng 19",
+    "gia": "107983",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 297,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "297",
+    "ten_san_pham": "Bánh mì 18",
+    "gia": "84557",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 298,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "298",
+    "ten_san_pham": "Cơm gà 6",
+    "gia": "77309",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 299,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "299",
+    "ten_san_pham": "Phở bò 5",
+    "gia": "78824",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 300,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "300",
+    "ten_san_pham": "Gỏi cuốn 7",
+    "gia": "53539",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 301,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "301",
+    "ten_san_pham": "Súp cua 14",
+    "gia": "69813",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 302,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "302",
+    "ten_san_pham": "Cơm sườn 7",
+    "gia": "25562",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 303,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "303",
+    "ten_san_pham": "Bánh mì 14",
+    "gia": "113694",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 304,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "304",
+    "ten_san_pham": "Phở bò 5",
+    "gia": "60264",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 305,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "305",
+    "ten_san_pham": "Bún chả 8",
+    "gia": "35084",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 306,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "306",
+    "ten_san_pham": "Phở bò 15",
+    "gia": "75163",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 307,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "307",
+    "ten_san_pham": "Cháo lòng 12",
+    "gia": "43595",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 308,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "308",
+    "ten_san_pham": "Bún chả 10",
+    "gia": "54186",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 309,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "309",
+    "ten_san_pham": "Gỏi cuốn 12",
+    "gia": "31752",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 310,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "310",
+    "ten_san_pham": "Cháo lòng 18",
+    "gia": "53321",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 311,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "311",
+    "ten_san_pham": "Cháo lòng 5",
+    "gia": "52538",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 312,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "312",
+    "ten_san_pham": "Bún chả 9",
+    "gia": "85705",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 313,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "313",
+    "ten_san_pham": "Súp cua 17",
+    "gia": "66736",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 314,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "314",
+    "ten_san_pham": "Súp cua 3",
+    "gia": "57098",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 315,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "315",
+    "ten_san_pham": "Bánh mì 2",
+    "gia": "103984",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 316,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "316",
+    "ten_san_pham": "Cháo lòng 7",
+    "gia": "35905",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 317,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "317",
+    "ten_san_pham": "Cơm sườn 7",
+    "gia": "68599",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 318,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "318",
+    "ten_san_pham": "Hủ tiếu 17",
+    "gia": "79786",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 319,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "319",
+    "ten_san_pham": "Cháo lòng 7",
+    "gia": "97415",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 320,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "320",
+    "ten_san_pham": "Phở bò 2",
+    "gia": "58252",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 321,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "321",
+    "ten_san_pham": "Mì xào 3",
+    "gia": "77356",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 322,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "322",
+    "ten_san_pham": "Hủ tiếu 18",
+    "gia": "54503",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 323,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "323",
+    "ten_san_pham": "Hủ tiếu 20",
+    "gia": "98666",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 324,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "324",
+    "ten_san_pham": "Cơm gà 16",
+    "gia": "47505",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 325,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "325",
+    "ten_san_pham": "Cơm gà 19",
+    "gia": "83384",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 326,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "326",
+    "ten_san_pham": "Phở bò 15",
+    "gia": "69970",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 327,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "327",
+    "ten_san_pham": "Phở bò 19",
+    "gia": "97610",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 328,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "328",
+    "ten_san_pham": "Súp cua 7",
+    "gia": "29345",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 329,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "329",
+    "ten_san_pham": "Bún chả 7",
+    "gia": "63360",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 330,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "330",
+    "ten_san_pham": "Súp cua 19",
+    "gia": "76470",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 331,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "331",
+    "ten_san_pham": "Cơm gà 9",
+    "gia": "74286",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 332,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "332",
+    "ten_san_pham": "Mì xào 20",
+    "gia": "103208",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 333,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "333",
+    "ten_san_pham": "Súp cua 8",
+    "gia": "47980",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 334,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "334",
+    "ten_san_pham": "Cháo lòng 3",
+    "gia": "41342",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 335,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "335",
+    "ten_san_pham": "Hủ tiếu 17",
+    "gia": "89647",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 336,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "336",
+    "ten_san_pham": "Cháo lòng 2",
+    "gia": "69034",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 337,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "337",
+    "ten_san_pham": "Gỏi cuốn 18",
+    "gia": "67395",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 338,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "338",
+    "ten_san_pham": "Bún chả 2",
+    "gia": "65031",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 339,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "339",
+    "ten_san_pham": "Phở bò 20",
+    "gia": "52105",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 340,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "340",
+    "ten_san_pham": "Cơm gà 8",
+    "gia": "94441",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 341,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "341",
+    "ten_san_pham": "Phở bò 9",
+    "gia": "59110",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 342,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "342",
+    "ten_san_pham": "Cháo lòng 14",
+    "gia": "76417",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 343,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "343",
+    "ten_san_pham": "Bún chả 20",
+    "gia": "31840",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 344,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "344",
+    "ten_san_pham": "Cơm gà 10",
+    "gia": "76178",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 345,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "345",
+    "ten_san_pham": "Súp cua 20",
+    "gia": "118943",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 346,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "346",
+    "ten_san_pham": "Mì xào 10",
+    "gia": "21226",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 347,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "347",
+    "ten_san_pham": "Hủ tiếu 14",
+    "gia": "63749",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 348,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "348",
+    "ten_san_pham": "Cháo lòng 13",
+    "gia": "38343",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 349,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "349",
+    "ten_san_pham": "Phở bò 20",
+    "gia": "116604",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 350,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "350",
+    "ten_san_pham": "Cơm gà 9",
+    "gia": "77958",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 351,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "351",
+    "ten_san_pham": "Cơm sườn 5",
+    "gia": "59522",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 352,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "352",
+    "ten_san_pham": "Hủ tiếu 15",
+    "gia": "73609",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 353,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "353",
+    "ten_san_pham": "Bún chả 16",
+    "gia": "96138",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 354,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "354",
+    "ten_san_pham": "Phở bò 17",
+    "gia": "88658",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 355,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "355",
+    "ten_san_pham": "Cơm sườn 1",
+    "gia": "119258",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 356,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "356",
+    "ten_san_pham": "Súp cua 1",
+    "gia": "72957",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 357,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "357",
+    "ten_san_pham": "Bún chả 12",
+    "gia": "39114",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 358,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "358",
+    "ten_san_pham": "Cháo lòng 17",
+    "gia": "49964",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 359,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "359",
+    "ten_san_pham": "Bánh mì 16",
+    "gia": "22823",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 360,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "360",
+    "ten_san_pham": "Mì xào 17",
+    "gia": "29960",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 361,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "361",
+    "ten_san_pham": "Gỏi cuốn 3",
+    "gia": "77731",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 362,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "362",
+    "ten_san_pham": "Bánh mì 2",
+    "gia": "82492",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 363,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "363",
+    "ten_san_pham": "Cơm sườn 17",
+    "gia": "108741",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 364,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "364",
+    "ten_san_pham": "Phở bò 11",
+    "gia": "89019",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 365,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "365",
+    "ten_san_pham": "Cơm sườn 11",
+    "gia": "78880",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 366,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "366",
+    "ten_san_pham": "Cơm gà 2",
+    "gia": "105115",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 367,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "367",
+    "ten_san_pham": "Phở bò 7",
+    "gia": "85845",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 368,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "368",
+    "ten_san_pham": "Cháo lòng 5",
+    "gia": "78481",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 369,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "369",
+    "ten_san_pham": "Súp cua 8",
+    "gia": "85175",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 370,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "370",
+    "ten_san_pham": "Phở bò 3",
+    "gia": "111257",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 371,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "371",
+    "ten_san_pham": "Gỏi cuốn 8",
+    "gia": "92983",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 372,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "372",
+    "ten_san_pham": "Phở bò 1",
+    "gia": "105025",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 373,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "373",
+    "ten_san_pham": "Cháo lòng 19",
+    "gia": "48373",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 374,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "374",
+    "ten_san_pham": "Gỏi cuốn 18",
+    "gia": "65728",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 375,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "375",
+    "ten_san_pham": "Hủ tiếu 19",
+    "gia": "79569",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 376,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "376",
+    "ten_san_pham": "Súp cua 17",
+    "gia": "31918",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 377,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "377",
+    "ten_san_pham": "Mì xào 1",
+    "gia": "26109",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 378,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "378",
+    "ten_san_pham": "Phở bò 5",
+    "gia": "29907",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 379,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "379",
+    "ten_san_pham": "Cơm gà 8",
+    "gia": "92597",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 380,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "380",
+    "ten_san_pham": "Mì xào 15",
+    "gia": "27237",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 381,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "381",
+    "ten_san_pham": "Bún chả 18",
+    "gia": "39161",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 382,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "382",
+    "ten_san_pham": "Cơm gà 11",
+    "gia": "118615",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 383,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "383",
+    "ten_san_pham": "Cơm gà 1",
+    "gia": "84616",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 384,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "384",
+    "ten_san_pham": "Mì xào 13",
+    "gia": "39963",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 385,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "385",
+    "ten_san_pham": "Gỏi cuốn 4",
+    "gia": "50495",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 386,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "386",
+    "ten_san_pham": "Bún chả 15",
+    "gia": "28483",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 387,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "387",
+    "ten_san_pham": "Súp cua 9",
+    "gia": "62322",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 388,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "388",
+    "ten_san_pham": "Bánh mì 5",
+    "gia": "51309",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 389,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "389",
+    "ten_san_pham": "Mì xào 11",
+    "gia": "112035",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 390,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "390",
+    "ten_san_pham": "Mì xào 1",
+    "gia": "63763",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 391,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "391",
+    "ten_san_pham": "Phở bò 6",
+    "gia": "42268",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 392,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "392",
+    "ten_san_pham": "Cơm sườn 14",
+    "gia": "73441",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 393,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "393",
+    "ten_san_pham": "Mì xào 13",
+    "gia": "91654",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 394,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "394",
+    "ten_san_pham": "Cơm gà 7",
+    "gia": "63253",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 395,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "395",
+    "ten_san_pham": "Bún chả 16",
+    "gia": "36318",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 396,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "396",
+    "ten_san_pham": "Mì xào 15",
+    "gia": "82527",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 397,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "397",
+    "ten_san_pham": "Gỏi cuốn 4",
+    "gia": "38057",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 398,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "398",
+    "ten_san_pham": "Hủ tiếu 14",
+    "gia": "46291",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 399,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "399",
+    "ten_san_pham": "Súp cua 12",
+    "gia": "37301",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 400,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "400",
+    "ten_san_pham": "Phở bò 6",
+    "gia": "111938",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 401,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "401",
+    "ten_san_pham": "Hủ tiếu 8",
+    "gia": "22724",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 402,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "402",
+    "ten_san_pham": "Mì xào 15",
+    "gia": "35712",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 403,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "403",
+    "ten_san_pham": "Bánh mì 4",
+    "gia": "114794",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 404,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "404",
+    "ten_san_pham": "Gỏi cuốn 8",
+    "gia": "118618",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 405,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "405",
+    "ten_san_pham": "Cơm sườn 17",
+    "gia": "83309",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 406,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "406",
+    "ten_san_pham": "Gỏi cuốn 14",
+    "gia": "64045",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 407,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "407",
+    "ten_san_pham": "Cháo lòng 14",
+    "gia": "73697",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 408,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "408",
+    "ten_san_pham": "Gỏi cuốn 19",
+    "gia": "68956",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 409,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "409",
+    "ten_san_pham": "Cơm sườn 12",
+    "gia": "71590",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 410,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "410",
+    "ten_san_pham": "Cháo lòng 8",
+    "gia": "75879",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 411,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "411",
+    "ten_san_pham": "Bún chả 14",
+    "gia": "113086",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 412,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "412",
+    "ten_san_pham": "Mì xào 20",
+    "gia": "54097",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 413,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "413",
+    "ten_san_pham": "Phở bò 12",
+    "gia": "94168",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 414,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "414",
+    "ten_san_pham": "Bánh mì 1",
+    "gia": "38766",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 415,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "415",
+    "ten_san_pham": "Mì xào 4",
+    "gia": "49100",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 416,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "416",
+    "ten_san_pham": "Gỏi cuốn 3",
+    "gia": "94052",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 417,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "417",
+    "ten_san_pham": "Cháo lòng 8",
+    "gia": "87471",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 418,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "418",
+    "ten_san_pham": "Phở bò 15",
+    "gia": "88804",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 419,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "419",
+    "ten_san_pham": "Cơm gà 18",
+    "gia": "47769",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 420,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "420",
+    "ten_san_pham": "Súp cua 7",
+    "gia": "22624",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 421,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "421",
+    "ten_san_pham": "Cơm sườn 5",
+    "gia": "62900",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 422,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "422",
+    "ten_san_pham": "Hủ tiếu 3",
+    "gia": "118722",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 423,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "423",
+    "ten_san_pham": "Gỏi cuốn 5",
+    "gia": "81804",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 424,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "424",
+    "ten_san_pham": "Bánh mì 7",
+    "gia": "115955",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 425,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "425",
+    "ten_san_pham": "Mì xào 10",
+    "gia": "40546",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 426,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "426",
+    "ten_san_pham": "Bánh mì 9",
+    "gia": "74749",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 427,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "427",
+    "ten_san_pham": "Bánh mì 13",
+    "gia": "41479",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 428,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "428",
+    "ten_san_pham": "Hủ tiếu 4",
+    "gia": "24104",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 429,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "429",
+    "ten_san_pham": "Bún chả 9",
+    "gia": "74123",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 430,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "430",
+    "ten_san_pham": "Cơm sườn 5",
+    "gia": "86970",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 431,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "431",
+    "ten_san_pham": "Cháo lòng 20",
+    "gia": "43851",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 432,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "432",
+    "ten_san_pham": "Mì xào 6",
+    "gia": "110434",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 433,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "433",
+    "ten_san_pham": "Cơm gà 6",
+    "gia": "88784",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 434,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "434",
+    "ten_san_pham": "Phở bò 9",
+    "gia": "119176",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 435,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "435",
+    "ten_san_pham": "Bún chả 19",
+    "gia": "70085",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 436,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "436",
+    "ten_san_pham": "Mì xào 3",
+    "gia": "109504",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 437,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "437",
+    "ten_san_pham": "Cháo lòng 8",
+    "gia": "75495",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 438,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "438",
+    "ten_san_pham": "Phở bò 9",
+    "gia": "86512",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 439,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "439",
+    "ten_san_pham": "Cháo lòng 9",
+    "gia": "69348",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 440,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "440",
+    "ten_san_pham": "Gỏi cuốn 18",
+    "gia": "91179",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 441,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "441",
+    "ten_san_pham": "Súp cua 5",
+    "gia": "45233",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 442,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "442",
+    "ten_san_pham": "Gỏi cuốn 11",
+    "gia": "55173",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 443,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "443",
+    "ten_san_pham": "Cơm gà 16",
+    "gia": "27456",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 444,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "444",
+    "ten_san_pham": "Cháo lòng 20",
+    "gia": "34451",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 445,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "445",
+    "ten_san_pham": "Mì xào 20",
+    "gia": "76778",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 446,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "446",
+    "ten_san_pham": "Cháo lòng 20",
+    "gia": "62069",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 447,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "447",
+    "ten_san_pham": "Súp cua 1",
+    "gia": "26492",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 448,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "448",
+    "ten_san_pham": "Cháo lòng 11",
+    "gia": "60583",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 449,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "449",
+    "ten_san_pham": "Mì xào 13",
+    "gia": "36619",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 450,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "450",
+    "ten_san_pham": "Cơm gà 2",
+    "gia": "32884",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 451,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "451",
+    "ten_san_pham": "Mì xào 5",
+    "gia": "75073",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 452,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "452",
+    "ten_san_pham": "Phở bò 5",
+    "gia": "90491",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 453,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "453",
+    "ten_san_pham": "Cơm sườn 4",
+    "gia": "89803",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 454,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "454",
+    "ten_san_pham": "Hủ tiếu 1",
+    "gia": "33687",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 455,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "455",
+    "ten_san_pham": "Phở bò 15",
+    "gia": "60622",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 456,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "456",
+    "ten_san_pham": "Cơm gà 12",
+    "gia": "35968",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 457,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "457",
+    "ten_san_pham": "Phở bò 5",
+    "gia": "100762",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 458,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "458",
+    "ten_san_pham": "Súp cua 4",
+    "gia": "46581",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 459,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "459",
+    "ten_san_pham": "Súp cua 6",
+    "gia": "32068",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 460,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "460",
+    "ten_san_pham": "Hủ tiếu 1",
+    "gia": "59860",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 461,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "461",
+    "ten_san_pham": "Hủ tiếu 3",
+    "gia": "33442",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 462,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "462",
+    "ten_san_pham": "Phở bò 20",
+    "gia": "55854",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 463,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "463",
+    "ten_san_pham": "Súp cua 13",
+    "gia": "26290",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 464,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "464",
+    "ten_san_pham": "Cơm gà 6",
+    "gia": "112154",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 465,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "465",
+    "ten_san_pham": "Cơm sườn 16",
+    "gia": "35745",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 466,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "466",
+    "ten_san_pham": "Cơm sườn 15",
+    "gia": "88745",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 467,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "467",
+    "ten_san_pham": "Bánh mì 11",
+    "gia": "72687",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 468,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "468",
+    "ten_san_pham": "Cháo lòng 14",
+    "gia": "61881",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 469,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "469",
+    "ten_san_pham": "Phở bò 18",
+    "gia": "72062",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 470,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "470",
+    "ten_san_pham": "Cơm sườn 19",
+    "gia": "26322",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 471,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "471",
+    "ten_san_pham": "Súp cua 20",
+    "gia": "95689",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 472,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "472",
+    "ten_san_pham": "Bún chả 4",
+    "gia": "112389",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 473,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "473",
+    "ten_san_pham": "Cơm sườn 1",
+    "gia": "98931",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 474,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "474",
+    "ten_san_pham": "Phở bò 5",
+    "gia": "61211",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 475,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "475",
+    "ten_san_pham": "Phở bò 5",
+    "gia": "91930",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 476,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "476",
+    "ten_san_pham": "Gỏi cuốn 17",
+    "gia": "99488",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 477,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "477",
+    "ten_san_pham": "Súp cua 14",
+    "gia": "105096",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 478,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "478",
+    "ten_san_pham": "Mì xào 9",
+    "gia": "67367",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 479,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "479",
+    "ten_san_pham": "Mì xào 7",
+    "gia": "39847",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 480,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "480",
+    "ten_san_pham": "Gỏi cuốn 16",
+    "gia": "44729",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 481,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "481",
+    "ten_san_pham": "Gỏi cuốn 20",
+    "gia": "111545",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 482,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "482",
+    "ten_san_pham": "Cơm sườn 9",
+    "gia": "57289",
+    "loai": "Ăn nhẹ"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 483,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "483",
+    "ten_san_pham": "Bún chả 1",
+    "gia": "57286",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 484,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "484",
+    "ten_san_pham": "Phở bò 18",
+    "gia": "83337",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 485,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "485",
+    "ten_san_pham": "Cơm gà 8",
+    "gia": "31757",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 486,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "486",
+    "ten_san_pham": "Cháo lòng 12",
+    "gia": "34327",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 487,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "487",
+    "ten_san_pham": "Bánh mì 12",
+    "gia": "41551",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 488,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "488",
+    "ten_san_pham": "Cháo lòng 20",
+    "gia": "66195",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 489,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "489",
+    "ten_san_pham": "Cơm sườn 19",
+    "gia": "101772",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 490,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "490",
+    "ten_san_pham": "Cơm sườn 11",
+    "gia": "68183",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 491,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "491",
+    "ten_san_pham": "Cơm gà 8",
+    "gia": "37933",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 492,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "492",
+    "ten_san_pham": "Cháo lòng 13",
+    "gia": "26960",
+    "loai": "Ăn sáng"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 493,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "493",
+    "ten_san_pham": "Cơm gà 15",
+    "gia": "22635",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 494,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "494",
+    "ten_san_pham": "Bún chả 7",
+    "gia": "70137",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 495,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "495",
+    "ten_san_pham": "Bánh mì 19",
+    "gia": "61363",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 496,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "496",
+    "ten_san_pham": "Bánh mì 16",
+    "gia": "102923",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 497,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "497",
+    "ten_san_pham": "Bánh mì 19",
+    "gia": "62384",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 498,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "498",
+    "ten_san_pham": "Cháo lòng 12",
+    "gia": "43795",
+    "loai": "Đồ uống"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 499,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "499",
+    "ten_san_pham": "Bún chả 10",
+    "gia": "63920",
+    "loai": "Ăn trưa"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 500,
+  "errors": [
+    "ten_san_pham: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": "500",
+    "ten_san_pham": "Bánh mì 17",
+    "gia": "117497",
+    "loai": "Ăn tối"
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 602,
+  "errors": [
+    "ten_mon: Độ dài 2-200 ký tự, cho phép chữ, số, dấu (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\\s\\-,\\.()]{2,200}$)"
+  ],
+  "data": {
+    "id": 107,
+    "ten_mon": "@@Món lỗi",
+    "loai_id": 2,
+    "gia": 15000.0
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 603,
+  "errors": [
+    "gia: Phải là số dương (regex: ^\\d+(\\.\\d+)?$)"
+  ],
+  "data": {
+    "id": 108,
+    "ten_mon": "Món lỗi giá âm",
+    "loai_id": 3,
+    "gia": -5000.0
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 604,
+  "errors": [
+    "gia: Không rỗng"
+  ],
+  "data": {
+    "id": 109,
+    "ten_mon": "Món lỗi null giá",
+    "loai_id": 4,
+    "gia": null
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 605,
+  "errors": [
+    "ten_mon: Không rỗng"
+  ],
+  "data": {
+    "id": 110,
+    "ten_mon": "",
+    "loai_id": 5,
+    "gia": 20000.0
+  }
+}
+
+{
+  "timestamp": "2025-12-08 14:07:05",
+  "row_number": 606,
+  "errors": [
+    "gia: Phải > 0"
+  ],
+  "data": {
+    "id": 111,
+    "ten_mon": "Giá bằng 0",
+    "loai_id": 1,
+    "gia": 0.0
+  }
+}
+

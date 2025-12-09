@@ -1,0 +1,4 @@
+﻿id,ten_nguyen_lieu,so_luong,don_vi,nha_cung_cap,_errors,_row_number
+,Gạo loại 5,415,kg,Cty C,id: Không rỗng,6
+8,,181,kg,Cty A,ten_nguyen_lieu: Không rỗng,8
+B,,,,,id: Phải là số nguyên dương (regex: ^[1-9]\d*$) | ten_nguyen_lieu: Không rỗng | so_luong: Không rỗng | don_vi: Không rỗng,10

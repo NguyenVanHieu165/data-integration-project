@@ -1,0 +1,6 @@
+﻿id,ten_nguyen_lieu,so_luong,don_vi,nha_cung_cap,_errors,_row_number
+101,Nguyên liệu @@,50,kg,Công ty A,"ten_nguyen_lieu: Độ dài 2-200 ký tự (regex: ^[A-Za-zÀ-Ỵà-ỹ0-9\s\-,\.()]{2,200}$)",101
+102,NL lỗi 1,-10,kg,Công ty B,so_luong: Phải là số dương (regex: ^\d+(\.\d+)?$),102
+104,,30,g,Công ty D,ten_nguyen_lieu: Không rỗng,104
+105,Nguyen lieu so,0,,Công ty E,don_vi: Không rỗng,105
+106,Nguyen lieu null,,kg,Công ty F,so_luong: Không rỗng,106

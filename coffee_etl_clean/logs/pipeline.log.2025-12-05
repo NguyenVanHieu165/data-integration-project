@@ -1,0 +1,185 @@
+{"time": "2025-12-05 19:31:07", "level": "INFO", "message": "================================================================================"}
+{"time": "2025-12-05 19:31:07", "level": "INFO", "message": "MAIN ETL PIPELINE - Producer → RabbitMQ → Consumer → Validate + Transform → Load"}
+{"time": "2025-12-05 19:31:07", "level": "INFO", "message": "Run ID: 20251205_193107"}
+{"time": "2025-12-05 19:31:07", "level": "INFO", "message": "Database: DB_20251205_193107"}
+{"time": "2025-12-05 19:31:07", "level": "INFO", "message": "================================================================================"}
+{"time": "2025-12-05 19:31:07", "level": "INFO", "message": "\n🔹 PHASE 0: TẠO DATABASE MỚI"}
+{"time": "2025-12-05 19:31:07", "level": "INFO", "message": "--------------------------------------------------------------------------------"}
+{"time": "2025-12-05 19:31:07", "level": "INFO", "message": "Kết nối SQL Server thành công: localhost,1433/master"}
+{"time": "2025-12-05 19:31:07", "level": "INFO", "message": "📦 Tạo database: DB_20251205_193107"}
+{"time": "2025-12-05 19:31:07", "level": "INFO", "message": "Query thành công, trả về 0 rows"}
+{"time": "2025-12-05 19:31:07", "level": "INFO", "message": "   ✅ Đã tạo database: DB_20251205_193107"}
+{"time": "2025-12-05 19:31:07", "level": "INFO", "message": "✅ Database đã sẵn sàng"}
+{"time": "2025-12-05 19:31:07", "level": "INFO", "message": "Đã đóng kết nối SQL Server"}
+{"time": "2025-12-05 19:31:07", "level": "INFO", "message": "Kết nối SQL Server thành công: localhost,1433/DB_20251205_193107"}
+{"time": "2025-12-05 19:31:07", "level": "INFO", "message": "Query thành công, -1 rows affected"}
+{"time": "2025-12-05 19:31:07", "level": "INFO", "message": "   ✅ Đã tạo schema: staging"}
+{"time": "2025-12-05 19:31:08", "level": "INFO", "message": "Query thành công, -1 rows affected"}
+{"time": "2025-12-05 19:31:08", "level": "INFO", "message": "   ✅ Đã tạo staging tables (CSV + SQL)"}
+{"time": "2025-12-05 19:31:08", "level": "INFO", "message": "✅ Setup database hoàn thành"}
+{"time": "2025-12-05 19:31:08", "level": "INFO", "message": "Đã đóng kết nối SQL Server"}
+{"time": "2025-12-05 19:31:08", "level": "INFO", "message": "\n🔹 PHASE 1: PRODUCER → RabbitMQ"}
+{"time": "2025-12-05 19:31:08", "level": "INFO", "message": "--------------------------------------------------------------------------------"}
+{"time": "2025-12-05 19:31:08", "level": "INFO", "message": "Kết nối RabbitMQ thành công: localhost:5672"}
+{"time": "2025-12-05 19:31:08", "level": "INFO", "message": "📄 Producer 1: Đọc CSV files..."}
+{"time": "2025-12-05 19:31:08", "level": "INFO", "message": "Đã khai báo queue: queue_khach_hang"}
+{"time": "2025-12-05 19:31:08", "level": "INFO", "message": "   ✓ khachhang.csv: 501 messages → queue_khach_hang"}
+{"time": "2025-12-05 19:31:08", "level": "INFO", "message": "Đã khai báo queue: queue_loai_mon"}
+{"time": "2025-12-05 19:31:08", "level": "INFO", "message": "   ✓ loaisanpham.csv: 7 messages → queue_loai_mon"}
+{"time": "2025-12-05 19:31:08", "level": "INFO", "message": "Đã khai báo queue: queue_mon"}
+{"time": "2025-12-05 19:31:08", "level": "INFO", "message": "   ✓ tensanpham.csv: 500 messages → queue_mon"}
+{"time": "2025-12-05 19:31:08", "level": "INFO", "message": "Đã khai báo queue: queue_nguyen_lieu"}
+{"time": "2025-12-05 19:31:08", "level": "INFO", "message": "   ✓ nguyenlieu.csv: 501 messages → queue_nguyen_lieu"}
+{"time": "2025-12-05 19:31:08", "level": "INFO", "message": "Đã khai báo queue: queue_dat_hang"}
+{"time": "2025-12-05 19:31:08", "level": "INFO", "message": "   ✓ dathang.csv: 30 messages → queue_dat_hang"}
+{"time": "2025-12-05 19:31:08", "level": "INFO", "message": "\n💾 Producer 2: Đọc SQL Server..."}
+{"time": "2025-12-05 19:31:08", "level": "INFO", "message": "Tạo kết nối tới Source DB: ComVanPhong"}
+{"time": "2025-12-05 19:31:08", "level": "INFO", "message": "Kết nối SQL Server thành công: localhost,1433/ComVanPhong"}
+{"time": "2025-12-05 19:31:08", "level": "INFO", "message": "Lấy danh sách tables từ schema: dbo"}
+{"time": "2025-12-05 19:31:08", "level": "INFO", "message": "Query thành công, trả về 6 rows"}
+{"time": "2025-12-05 19:31:08", "level": "INFO", "message": "Tìm thấy 6 tables: dat_hang_tbl, khach_hang_tbl, loai_mon_tbl, mon_tbl, nguyen_lieu_tbl, sysdiagrams"}
+{"time": "2025-12-05 19:31:08", "level": "INFO", "message": "Đã khai báo queue: queue_dat_hang"}
+{"time": "2025-12-05 19:31:08", "level": "INFO", "message": "Đọc dữ liệu từ dbo.dat_hang_tbl"}
+{"time": "2025-12-05 19:31:08", "level": "INFO", "message": "Query thành công, trả về 169 rows"}
+{"time": "2025-12-05 19:31:08", "level": "INFO", "message": "   ✓ dat_hang_tbl: 169 messages → queue_dat_hang"}
+{"time": "2025-12-05 19:31:08", "level": "INFO", "message": "Đã khai báo queue: queue_khach_hang"}
+{"time": "2025-12-05 19:31:08", "level": "INFO", "message": "Đọc dữ liệu từ dbo.khach_hang_tbl"}
+{"time": "2025-12-05 19:31:08", "level": "INFO", "message": "Query thành công, trả về 120 rows"}
+{"time": "2025-12-05 19:31:08", "level": "INFO", "message": "   ✓ khach_hang_tbl: 120 messages → queue_khach_hang"}
+{"time": "2025-12-05 19:31:08", "level": "INFO", "message": "Đã khai báo queue: queue_loai_mon"}
+{"time": "2025-12-05 19:31:08", "level": "INFO", "message": "Đọc dữ liệu từ dbo.loai_mon_tbl"}
+{"time": "2025-12-05 19:31:08", "level": "INFO", "message": "Query thành công, trả về 8 rows"}
+{"time": "2025-12-05 19:31:08", "level": "INFO", "message": "   ✓ loai_mon_tbl: 8 messages → queue_loai_mon"}
+{"time": "2025-12-05 19:31:08", "level": "INFO", "message": "Đã khai báo queue: queue_mon"}
+{"time": "2025-12-05 19:31:08", "level": "INFO", "message": "Đọc dữ liệu từ dbo.mon_tbl"}
+{"time": "2025-12-05 19:31:08", "level": "INFO", "message": "Query thành công, trả về 106 rows"}
+{"time": "2025-12-05 19:31:08", "level": "INFO", "message": "   ✓ mon_tbl: 106 messages → queue_mon"}
+{"time": "2025-12-05 19:31:08", "level": "INFO", "message": "Đã khai báo queue: queue_nguyen_lieu"}
+{"time": "2025-12-05 19:31:08", "level": "INFO", "message": "Đọc dữ liệu từ dbo.nguyen_lieu_tbl"}
+{"time": "2025-12-05 19:31:08", "level": "INFO", "message": "Query thành công, trả về 107 rows"}
+{"time": "2025-12-05 19:31:08", "level": "INFO", "message": "   ✓ nguyen_lieu_tbl: 107 messages → queue_nguyen_lieu"}
+{"time": "2025-12-05 19:31:08", "level": "INFO", "message": "Đã đóng kết nối SQL Server"}
+{"time": "2025-12-05 19:31:08", "level": "INFO", "message": "\n✅ Producer phase hoàn thành!"}
+{"time": "2025-12-05 19:31:08", "level": "INFO", "message": "   Tổng: 2049 messages đã gửi vào RabbitMQ"}
+{"time": "2025-12-05 19:31:08", "level": "INFO", "message": "Đã đóng kết nối RabbitMQ"}
+{"time": "2025-12-05 19:31:08", "level": "INFO", "message": "\n⏳ Đợi 2 giây để message được gửi xong..."}
+{"time": "2025-12-05 19:31:10", "level": "INFO", "message": "\n🔹 PHASE 2: CONSUMER → Validate + Transform → Load Staging"}
+{"time": "2025-12-05 19:31:10", "level": "INFO", "message": "--------------------------------------------------------------------------------"}
+{"time": "2025-12-05 19:31:10", "level": "INFO", "message": "💾 Kết nối Target DB: DB_20251205_193107"}
+{"time": "2025-12-05 19:31:10", "level": "INFO", "message": "Kết nối SQL Server thành công: localhost,1433/DB_20251205_193107"}
+{"time": "2025-12-05 19:31:10", "level": "INFO", "message": "\n📥 Processing: queue_khach_hang"}
+{"time": "2025-12-05 19:31:10", "level": "INFO", "message": "Kết nối RabbitMQ thành công: localhost:5672"}
+{"time": "2025-12-05 19:31:10", "level": "INFO", "message": "   Messages: 621"}
+{"time": "2025-12-05 19:31:11", "level": "INFO", "message": "   Consumed: 621 | Valid: 497 (CSV: 495, SQL: 2) | Invalid: 124"}
+{"time": "2025-12-05 19:31:11", "level": "INFO", "message": "   🔄 Transform & Load [CSV]..."}
+{"time": "2025-12-05 19:31:11", "level": "INFO", "message": "Bulk insert hoàn thành: 495 thành công, 0 lỗi"}
+{"time": "2025-12-05 19:31:11", "level": "INFO", "message": "   ✅ Loaded: 495 rows → staging.khach_hang_csv"}
+{"time": "2025-12-05 19:31:11", "level": "INFO", "message": "   🔄 Transform & Load [SQL]..."}
+{"time": "2025-12-05 19:31:11", "level": "INFO", "message": "Bulk insert hoàn thành: 2 thành công, 0 lỗi"}
+{"time": "2025-12-05 19:31:11", "level": "INFO", "message": "   ✅ Loaded: 2 rows → staging.khach_hang_sql"}
+{"time": "2025-12-05 19:31:11", "level": "INFO", "message": "Đã đóng kết nối RabbitMQ"}
+{"time": "2025-12-05 19:31:11", "level": "INFO", "message": "\n📥 Processing: queue_loai_mon"}
+{"time": "2025-12-05 19:31:11", "level": "INFO", "message": "Kết nối RabbitMQ thành công: localhost:5672"}
+{"time": "2025-12-05 19:31:11", "level": "INFO", "message": "   Messages: 15"}
+{"time": "2025-12-05 19:31:11", "level": "INFO", "message": "   Consumed: 15 | Valid: 7 (CSV: 6, SQL: 1) | Invalid: 8"}
+{"time": "2025-12-05 19:31:11", "level": "INFO", "message": "   🔄 Transform & Load [CSV]..."}
+{"time": "2025-12-05 19:31:11", "level": "INFO", "message": "Bulk insert hoàn thành: 6 thành công, 0 lỗi"}
+{"time": "2025-12-05 19:31:11", "level": "INFO", "message": "   ✅ Loaded: 6 rows → staging.loai_mon_csv"}
+{"time": "2025-12-05 19:31:11", "level": "INFO", "message": "   🔄 Transform & Load [SQL]..."}
+{"time": "2025-12-05 19:31:11", "level": "INFO", "message": "Bulk insert hoàn thành: 1 thành công, 0 lỗi"}
+{"time": "2025-12-05 19:31:11", "level": "INFO", "message": "   ✅ Loaded: 1 rows → staging.loai_mon_sql"}
+{"time": "2025-12-05 19:31:11", "level": "INFO", "message": "Đã đóng kết nối RabbitMQ"}
+{"time": "2025-12-05 19:31:11", "level": "INFO", "message": "\n📥 Processing: queue_mon"}
+{"time": "2025-12-05 19:31:11", "level": "INFO", "message": "Kết nối RabbitMQ thành công: localhost:5672"}
+{"time": "2025-12-05 19:31:11", "level": "INFO", "message": "   Messages: 606"}
+{"time": "2025-12-05 19:31:12", "level": "INFO", "message": "   Consumed: 606 | Valid: 101 (CSV: 0, SQL: 101) | Invalid: 505"}
+{"time": "2025-12-05 19:31:12", "level": "INFO", "message": "   🔄 Transform & Load [SQL]..."}
+{"time": "2025-12-05 19:31:12", "level": "INFO", "message": "Bulk insert hoàn thành: 101 thành công, 0 lỗi"}
+{"time": "2025-12-05 19:31:12", "level": "INFO", "message": "   ✅ Loaded: 101 rows → staging.mon_sql"}
+{"time": "2025-12-05 19:31:12", "level": "INFO", "message": "Đã đóng kết nối RabbitMQ"}
+{"time": "2025-12-05 19:31:12", "level": "INFO", "message": "\n📥 Processing: queue_nguyen_lieu"}
+{"time": "2025-12-05 19:31:12", "level": "INFO", "message": "Kết nối RabbitMQ thành công: localhost:5672"}
+{"time": "2025-12-05 19:31:12", "level": "INFO", "message": "   Messages: 608"}
+{"time": "2025-12-05 19:31:12", "level": "INFO", "message": "   Consumed: 608 | Valid: 500 (CSV: 498, SQL: 2) | Invalid: 108"}
+{"time": "2025-12-05 19:31:12", "level": "INFO", "message": "   🔄 Transform & Load [CSV]..."}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "Bulk insert hoàn thành: 498 thành công, 0 lỗi"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "   ✅ Loaded: 498 rows → staging.nguyen_lieu_csv"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "   🔄 Transform & Load [SQL]..."}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "Bulk insert hoàn thành: 2 thành công, 0 lỗi"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "   ✅ Loaded: 2 rows → staging.nguyen_lieu_sql"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "Đã đóng kết nối RabbitMQ"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "\n📥 Processing: queue_dat_hang"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "Kết nối RabbitMQ thành công: localhost:5672"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "   Messages: 199"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "   Consumed: 199 | Valid: 157 (CSV: 0, SQL: 157) | Invalid: 42"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "   🔄 Transform & Load [SQL]..."}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "Bulk insert hoàn thành: 157 thành công, 0 lỗi"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "   ✅ Loaded: 157 rows → staging.dat_hang_sql"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "Đã đóng kết nối RabbitMQ"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "\n✅ Consumer phase hoàn thành!"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "\n🔹 PHASE 3: LƯU FAILED DATA"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "--------------------------------------------------------------------------------"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "   ✅ Đã lưu 787 failed records vào: logs\\failed_data_20251205_193107.csv"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "\n================================================================================"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "📊 TỔNG KẾT PIPELINE"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "================================================================================"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "\n1️⃣  PRODUCER → RabbitMQ:"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "   • csv_queue_khach_hang: 501 messages"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "   • csv_queue_loai_mon: 7 messages"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "   • csv_queue_mon: 500 messages"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "   • csv_queue_nguyen_lieu: 501 messages"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "   • csv_queue_dat_hang: 30 messages"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "   • sql_queue_dat_hang: 169 messages"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "   • sql_queue_khach_hang: 120 messages"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "   • sql_queue_loai_mon: 8 messages"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "   • sql_queue_mon: 106 messages"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "   • sql_queue_nguyen_lieu: 107 messages"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "   TỔNG PRODUCED: 2049 messages"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "\n2️⃣  CONSUMER (RabbitMQ → Consumer):"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "   • khach_hang: 621 messages"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "   • loai_mon: 15 messages"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "   • mon: 606 messages"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "   • nguyen_lieu: 608 messages"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "   • dat_hang: 199 messages"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "   TỔNG CONSUMED: 2049 messages"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "\n3️⃣  VALIDATE (Data Quality Rules):"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "   • khach_hang: Valid=497 | Invalid=124"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "   • loai_mon: Valid=7 | Invalid=8"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "   • mon: Valid=101 | Invalid=505"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "   • nguyen_lieu: Valid=500 | Invalid=108"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "   • dat_hang: Valid=157 | Invalid=42"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "   TỔNG: Valid=1262 (61.6%) | Invalid=787 (38.4%)"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "\n4️⃣  TRANSFORM: Chuẩn hóa 1262 valid records"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "\n5️⃣  LOAD (Staging Tables):"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "   • staging.khach_hang_csv: 495 rows"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "   • staging.khach_hang_sql: 2 rows"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "   • staging.loai_mon_csv: 6 rows"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "   • staging.loai_mon_sql: 1 rows"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "   • staging.mon_sql: 101 rows"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "   • staging.nguyen_lieu_csv: 498 rows"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "   • staging.nguyen_lieu_sql: 2 rows"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "   • staging.dat_hang_sql: 157 rows"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "   TỔNG LOADED: 1262 rows (CSV: 999, SQL: 263)"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "\n6️⃣  VALIDATION LOGS THEO TỪNG BẢNG:"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "   • dat_hang: dat_hang_validation_20251205_193107.log (42 errors)"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "   • khach_hang: khach_hang_validation_20251205_193107.log (124 errors)"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "   • loai_mon: loai_mon_validation_20251205_193107.log (8 errors)"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "   • mon: mon_validation_20251205_193107.log (505 errors)"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "   • nguyen_lieu: nguyen_lieu_validation_20251205_193107.log (108 errors)"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "\n================================================================================"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "✅ PIPELINE HOÀN THÀNH!"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "   Producer → RabbitMQ → Consumer → Validate + Transform → Load Staging"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "================================================================================"}
+{"time": "2025-12-05 19:31:13", "level": "INFO"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "📁 Logs:"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "   • Pipeline: logs/pipeline.log"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "   • Data: logs/data.log"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "   • Error: logs/error.log"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "   • Failed data: logs/failed_data_20251205_193107.csv"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "   • Validation per-entity: *_validation_20251205_193107.log"}
+{"time": "2025-12-05 19:31:13", "level": "INFO"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "💾 Database: DB_20251205_193107"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "   • Staging CSV: staging.*_csv"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "   • Staging SQL: staging.*_sql"}
+{"time": "2025-12-05 19:31:13", "level": "INFO"}
+{"time": "2025-12-05 19:31:13", "level": "INFO", "message": "Đã đóng kết nối SQL Server"}
